@@ -1,8 +1,24 @@
 # Radiation
 
-TODO: Write a gem description
+This gem provides easy access to energies and intensities from the decay of radioactive nuclei. 
+Currently two data sources are accessible: Internal (see bib files in `./data/`) and recommended values 
+by [Laboratoire National Henri Becquerel](http://www.nucleide.org/DDEP_WG/DDEPdata.htm)
+
+## Example Usage
+
+    Radiation::Source.new(nuclide: "Ra-226").energies.collect{|e| e.value}
+
+
+## Planned features
+
+Energy and efficiency calibration for given peaks or spectra.
+
 
 ## Installation
+
+Requirement is a (local) ruby with rubygems. Using rvm is recommended
+    
+    $ \curl -L https://get.rvm.io | bash -s stable --ruby=1.9.3
 
 Add this line to your application's Gemfile:
 
@@ -15,15 +31,3 @@ And then execute:
 Or install it yourself as:
 
     $ gem install radiation
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request

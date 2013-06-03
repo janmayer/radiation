@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Radiation::VERSION
   spec.authors       = ["Jan Mayer"]
   spec.email         = ["jan.mayer@ikp.uni-koeln.de"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Decay Radiation}
+  spec.summary       = %q{This gem provides easy access to energies and intensities from the decay of radioactive nuclei}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "plusminus"
   spec.add_dependency "open-uri-cached"
+  
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
