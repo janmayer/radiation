@@ -1,4 +1,4 @@
-# Radiation
+# Radiation [![Build Status](https://travis-ci.org/janmayer/radiation.png?branch=master)](https://travis-ci.org/janmayer/radiation)
 
 This gem provides easy access to energies and intensities from the decay of radioactive nuclei. 
 Currently two data sources are accessible: Internal (see bib files in `./data/`) and recommended values 
