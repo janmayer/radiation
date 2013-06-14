@@ -1,5 +1,7 @@
 # encoding: utf-8
 require 'radiation/source/resource'
+require 'combinatorics'
+
 
 class Radiation::Source
 	attr_reader :data
@@ -29,4 +31,5 @@ class Radiation::Source
 	def is_nuclide?(nuclide)
 		!!(nuclide =~ /\A[a-zA-Z]{1,2}-\d{1,3}\z/)
 	end
+
 end

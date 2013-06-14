@@ -11,7 +11,7 @@ class Radiation::Source
 
 		private
 		def datasource_nukleideorg(nuclide)
-			nuclide = "Ra-226D" if nuclide == "Ra-226" #Ra-226 in equlibrium with daughters
+			nuclide = "Ra-226D" if nuclide == "Ra-226" #Ra-226 in equilibrium with daughters
 			begin
 				@data[:nuclide] = nuclide.to_s
 				OpenURI::Cache.cache_path = "#{Dir.tmpdir}/radiation/"

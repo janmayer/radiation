@@ -2,16 +2,20 @@
 
 This gem provides easy access to energies and intensities from the decay of radioactive nuclei. 
 Currently two data sources are accessible: Internal (see bib files in `./data/`) and recommended values 
-by [Laboratoire National Henri Becquerel](http://www.nucleide.org/DDEP_WG/DDEPdata.htm)
+by [Laboratoire National Henri Becquerel](http://www.nucleide.org/DDEP_WG/DDEPdata.htm).
 
 ## Example Usage
 
     Radiation::Source.new(nuclide: "Ra-226").energies.collect{|e| e.value}
 
+See also files in `./samples/`.
+
 
 ## Planned features
 
-Energy and efficiency calibration for given peaks or spectra.
+* Efficiency calibration for given peaks or spectra
+* CLI
+* Better access to resources
 
 
 ## Installation
