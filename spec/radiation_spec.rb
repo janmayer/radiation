@@ -61,6 +61,10 @@ describe Radiation do
 			Radiation::Spectrum.new(peaks: peaks, source: source ).calibrate.calibration[0].should be_a_kind_of(Plusminus::PlusminusFloat)
 		end
 
-	end
+		it "can read peaks from hdtv xml data" do
+			expect { Radiation::Spectrum.new(source: source ).parse_hdtv("./samples/B0-Ra226.xml") }.to_not raise_error
+			Radiation::Spectrum.new(source: source ).parse_hdtv("./samples/B0-Ra226.xml").calibrate.calibration.should be == [0.311879195357135.pm(0.002317818766849388), 0.10022085942781585.pm(4.767016096075808e-07)]
+		end
 
+	end
 end

@@ -21,7 +21,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency "plusminus"
   spec.add_dependency "open-uri-cached"
   spec.add_dependency "combinatorics"
-  spec.add_dependency "linefit", "~> 0.3.1"
+  spec.add_dependency "linefit"
+  spec.add_dependency "xml-simple"
 
   
   spec.add_development_dependency "bundler", "~> 1.3"

@@ -1,6 +1,7 @@
 # encoding: utf-8
 require "linefit"
 require "plusminus"
+require "xmlsimple"
 
 class Radiation::Spectrum
 	attr_accessor :peaks, :source, :calibration
@@ -39,7 +40,7 @@ class Radiation::Spectrum
 	def match_channels(energies=@source.energies, rounding=4)
 		@peaks.each do |peak|
 			energies.each do |energy|
-				peak[:energy] = energy if channel_energy(peak[:channel]).approx_equal?(energy, rounding)
+				peak[:energy] = energy if channel_energy(peak[:channel]).to_f.approx_equal?(energy, rounding)
 			end
 		end
 		return self
@@ -56,6 +57,15 @@ class Radiation::Spectrum
 
 	def channel_energy(chn)
 		@calibration[0] + @calibration[1]*chn
+	end
+
+	def parse_hdtv(file)
+		xml = XmlSimple.xml_in(file, { 'KeyAttr' => 'name' })
+		@peaks = xml["fit"].collect{|p| p["peak"]}.flatten.collect{|p| p["uncal"]}.flatten.collect do |p|
+			{:channel => p["pos"].first["value"].first.to_f.pm(p["pos"].first["error"].first.to_f),
+	 		:counts => p["vol"].first["value"].first.to_f.pm(p["vol"].first["error"].first.to_f) } 
+		end
+		return self
 	end
 
 end

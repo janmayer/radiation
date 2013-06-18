@@ -1,4 +1,7 @@
-# Radiation [![Build Status](https://travis-ci.org/janmayer/radiation.png?branch=master)](https://travis-ci.org/janmayer/radiation)
+# Radiation
+[![Gem Version](https://badge.fury.io/rb/radiation.png)](http://badge.fury.io/rb/radiation)
+[![Build Status](https://travis-ci.org/janmayer/radiation.png?branch=master)](https://travis-ci.org/janmayer/radiation)
+[![Code Climate](https://codeclimate.com/github/janmayer/radiation.png)](https://codeclimate.com/github/janmayer/radiation)
 
 This gem provides easy access to energies and intensities from the decay of radioactive nuclei. 
 Currently two data sources are accessible: Internal (see bib files in `./data/`) and recommended values 
