@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "combinatorics"
   spec.add_dependency "linefit"
   spec.add_dependency "xml-simple"
+  spec.add_dependency "thor"
 
   
   spec.add_development_dependency "bundler", "~> 1.3"

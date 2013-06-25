@@ -3,7 +3,8 @@ require 'radiation/source/resource'
 require 'combinatorics'
 
 
-class Radiation::Source
+module Radiation
+class Source
 	attr_reader :data
 
 	def initialize(options={})
@@ -32,4 +33,5 @@ class Radiation::Source
 		!!(nuclide =~ /\A[a-zA-Z]{1,2}-\d{1,3}\z/)
 	end
 
+end
 end

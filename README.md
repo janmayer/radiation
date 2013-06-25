@@ -9,15 +9,20 @@ by [Laboratoire National Henri Becquerel](http://www.nucleide.org/DDEP_WG/DDEPda
 
 ## Example Usage
 
+### Command line interface
+
+	$> radiation
+
+### In your ruby files:
+
+    require "radiation"
     Radiation::Source.new(nuclide: "Ra-226").energies.collect{|e| e.value}
 
 See also files in `./samples/`.
 
-
 ## Planned features
 
 * Efficiency calibration for given peaks or spectra
-* CLI
 * Better access to resources
 
 

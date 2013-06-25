@@ -49,7 +49,7 @@ describe Radiation do
 		source = Radiation::Source.new(nuclide: "Ra-226")
 
 		it "can guess a inital energy calibration based on adc values" do
-			Radiation::Spectrum.new(peaks: peaks, source: source).guess_calibration.calibration.should be == [0, 0.36]
+			Radiation::Spectrum.new(peaks: peaks, source: source).guess_calibration.calibration.should be == [0, 0.3597]
 		end
 
 		it "can match channels to given energies by using a calibration" do
@@ -63,7 +63,7 @@ describe Radiation do
 
 		it "can read peaks from hdtv xml data" do
 			expect { Radiation::Spectrum.new(source: source ).parse_hdtv("./samples/B0-Ra226.xml") }.to_not raise_error
-			Radiation::Spectrum.new(source: source ).parse_hdtv("./samples/B0-Ra226.xml").calibrate.calibration.should be == [0.311879195357135.pm(0.002317818766849388), 0.10022085942781585.pm(4.767016096075808e-07)]
+			Radiation::Spectrum.new(source: source ).parse_hdtv("./samples/B0-Ra226.xml").calibrate.calibration[1].round(3).should be == 0.100
 		end
 
 	end

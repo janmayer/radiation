@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+# Trap interrupts to quit cleanly. See
+# https://twitter.com/mitchellh/status/283014103189053442
+Signal.trap("INT") { exit 1 }
+
+require 'radiation/cli'
+# Set debug flag so we can rescue Thor::error's
+# and set the correct exit code.
+ENV["THOR_DEBUG"] = "1"
+Radiation::CLI.start(ARGV)

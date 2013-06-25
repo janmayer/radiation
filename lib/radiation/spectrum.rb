@@ -3,7 +3,8 @@ require "linefit"
 require "plusminus"
 require "xmlsimple"
 
-class Radiation::Spectrum
+module Radiation
+class Spectrum
 	attr_accessor :peaks, :source, :calibration
 
 	def initialize(options={})
@@ -46,7 +47,7 @@ class Radiation::Spectrum
 		return self
 	end
 
-	def guess_calibration(energies=@source.energies, rounding=3)
+	def guess_calibration(energies=@source.energies, rounding=4)
 		# Build all possible combinations of known energies and peaks
 		arr = [energies, @peaks.collect{|peak| peak[:channel]}].comprehension
 		# The approximate value for b in $Energy = a + b * Channel$ will be most frequent for $a \approx 0$
@@ -69,7 +70,7 @@ class Radiation::Spectrum
 	end
 
 end
-
+end
 
 
 class Float

@@ -2,7 +2,8 @@
 require 'radiation/source/resource/internal'
 require 'radiation/source/resource/nucleideorg'
 
-class Radiation::Source
+module Radiation
+class Source
 	class Resource
 		
 		def initialize(resource)
@@ -20,4 +21,5 @@ class Radiation::Source
 		end
 
 	end
+end
 end
