@@ -28,7 +28,7 @@ describe Radiation do
 			expect { Radiation::Source.new(nuclide: "Ra-226", resource: "nucleide.org") }.to_not raise_error
 		end
 
-		it "cheks for valid nuclei" do
+		it "checks for valid nuclei" do
 			Radiation::Source.new.is_nuclide?("Nukular9000").should be false
 			Radiation::Source.new.is_nuclide?("226Ra-226").should be false
 			Radiation::Source.new.is_nuclide?("Ra-226").should be true
