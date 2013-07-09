@@ -68,7 +68,24 @@ require "xmlsimple"
 			end
 			return self
 		end
-	
+		
+		def efficiencies(rounding=4)
+			@peaks.each do |peak|
+				@source.transitions.each do |transition|
+					if channel_energy(peak[:channel]).to_f.approx_equal?(transition[:energy], rounding)
+						peak[:energy] = transition[:energy]
+						peak[:intensity] = transition[:intensity] if transition[:intensity] > 0
+					end
+				end
+			end
+			@peaks.select{|p| p.key?(:intensity) and p.key?(:counts)}.each{|p| p[:efficiency] = channel_efficiency(p)}
+		end
+
+	private 
+		def channel_efficiency(peak)
+			peak[:counts]/peak[:intensity]
+		end
+
 	end
 end
 	

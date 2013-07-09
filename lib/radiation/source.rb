@@ -26,7 +26,7 @@ module Radiation
 	
 		def read(options={})
 			@resource = "external"
-			self.build(options)
+			build(options)
 			return self
 		end
 	

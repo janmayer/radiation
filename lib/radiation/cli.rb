@@ -34,5 +34,27 @@ class CLI < Thor
 		spectrum.calibrate.calibration.each{|c| puts c}
 	end
 
+	option :resource
+	option :mini
+	desc "efficiency NUCLIDE SPECTRUM.xml", "calculate efficiencies for a spectrum"
+	long_desc <<-LONGDESC
+	Calculates relative full-peak efficiencies for a spectrum that has been analysed with HDTV. Stored peak fits in HDTV can be stored with hdtv>fit write filname.xml
+	Example: \n
+	$>radiation efficiency Ra-226 Ge00.xml
+	With --resource=nucleide.org more decay radiation sources are available.
+	With --mini=value transitions with small intensities can be supressed (default 0.3)
+	LONGDESC
+	def efficiency(nuclide, file)
+		resource = options[:resource] ? options[:resource] : "internal"
+		mini = options[:mini] ? options[:mini] : 0.3
+		source   = Radiation::Source.new(nuclide: nuclide, resource: resource)
+		spectrum = Radiation::Spectrum.new(source: source ).parse_hdtv(file)
+		puts ["E_ɣ", "I_ɣ", "ΔI_ɣ", "e", "Δe"].join("\t")
+		spectrum.calibrate.efficiencies.select{|p| p[:intensity] > mini}.sort_by{|k| k[:energy]}.each do |p|
+			puts [ p[:energy].to_f.round(1), p[:intensity].value, p[:intensity].delta, p[:efficiency].value.round(1), p[:efficiency].delta.round(1) ].join("\t")
+		end
+	end
+
+
 end
 end

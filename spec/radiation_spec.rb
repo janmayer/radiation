@@ -9,7 +9,7 @@ describe Radiation do
 		it "provides information about itself" do
 			source.nuclide.should eq(name)
 			#source.reference.should be_a_kind_of(String)
-			#source.halflive.should be_a_kind_of(Plusminus::PlusminusFloat)
+			#source.halflife.should be_a_kind_of(Plusminus::PlusminusFloat)
 		end
 
 		it "returns an array with gamma-ray energies for a given source" do
@@ -23,6 +23,7 @@ describe Radiation do
 			source.intensities.first.should be_a_kind_of(Hash)
 			source.intensities.length.should be > 0
 		end
+
 		it "can access different data resources" do
 			expect { Radiation::Source.new(nuclide: "Ra-226") }.to_not raise_error
 			expect { Radiation::Source.new(nuclide: "Ra-226", resource: "nucleide.org") }.to_not raise_error
@@ -37,9 +38,14 @@ describe Radiation do
 			expect { Radiation::Source.new(nuclide: "Nukular9000") }.to raise_error
 			expect { Radiation::Source.new(nuclide: "Ra-226") }.to_not raise_error
 		end
+
 		it "gives an error if no record is found" do
 			expect { Radiation::Source.new(nuclide: "Ra-15") }.to raise_error
 			expect { Radiation::Source.new(nuclide: "Ra-15", resource: "nucleide.org") }.to raise_error
+		end
+
+		it "can access nuclide halflife" do
+			Radiation::Source.new(nuclide: "Ra-226", resource: "nucleide.org").halflife.to_f.should be_within(0.001).of(50.49E9)
 		end
 	end
 
@@ -64,6 +70,10 @@ describe Radiation do
 		it "can read peaks from hdtv xml data" do
 			expect { Radiation::Spectrum.new(source: source ).parse_hdtv("./samples/B0-Ra226.xml") }.to_not raise_error
 			Radiation::Spectrum.new(source: source ).parse_hdtv("./samples/B0-Ra226.xml").calibrate.calibration[1].to_f.should be_within(0.001).of(0.1)
+		end
+
+		it "can calculate detection efficiencies" do
+			Radiation::Spectrum.new(source: source).parse_hdtv("./samples/B0-Ra226.xml").calibrate.efficiencies.select{|p| p[:energy].to_f.to_i == 295}.first[:efficiency].should be_a_kind_of(Plusminus::PlusminusFloat)
 		end
 
 	end
