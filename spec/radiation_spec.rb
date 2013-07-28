@@ -73,7 +73,7 @@ describe Radiation do
 		end
 
 		it "can calculate detection efficiencies" do
-			Radiation::Spectrum.new(source: source).parse_hdtv("./samples/B0-Ra226.xml").calibrate.efficiencies.select{|p| p[:energy].to_f.to_i == 295}.first[:efficiency].should be_a_kind_of(Plusminus::PlusminusFloat)
+			Radiation::Spectrum.new(source: source).parse_hdtv("./samples/B0-Ra226.xml").calibrate.efficiencies.peaks.select{|p| p[:energy].to_f.to_i == 295}.first[:efficiency].should be_a_kind_of(Plusminus::PlusminusFloat)
 		end
 
 	end

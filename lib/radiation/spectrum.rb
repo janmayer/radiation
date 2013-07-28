@@ -79,6 +79,7 @@ require "xmlsimple"
 				end
 			end
 			@peaks.select{|p| p.key?(:intensity) and p.key?(:counts)}.each{|p| p[:efficiency] = channel_efficiency(p)}
+			return self
 		end
 
 	private 
