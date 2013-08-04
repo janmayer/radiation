@@ -6,12 +6,14 @@ require "xmlsimple"
 
 module Radiation
 	class Spectrum
-		attr_accessor :peaks, :source, :calibration
+		attr_accessor :peaks, :source, :calibration, :livetime, :activity
 	
 		def initialize(options={})
 			@peaks		= options.key?(:peaks) ? options[:peaks] : []
 			@source		= options.key?(:source) ? options[:source] : nil
 			@calibration= options.key?(:calibration) ? options[:calibration] : [0, 1]
+			@livetime	= options.key?(:livetime) ? options[:livetime] : 1
+			@activity	= options.key?(:activity) ? options[:activity] : 1
 		end
 	
 		def calibrate
@@ -74,7 +76,7 @@ module Radiation
 
 
 		def channel_efficiency(peak)
-			peak[:counts]/peak[:intensity]
+			peak[:counts]/(peak[:intensity]*@livetime*@activity)
 		end
 
 	private
