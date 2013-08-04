@@ -1,6 +1,4 @@
 # encoding: utf-8
-require 'combinatorics'
-
 module Radiation
 	class Source
 		attr_reader :resource, :nuclide, :halflife, :reference, :description, :transitions
@@ -17,11 +15,16 @@ module Radiation
 			raise "Nuclide: #{@nuclide} is not valid." unless is_nuclide?(@nuclide)
 			data = case @resource
 				when "internal" then Radiation::Resource::Internal.new.fetch(@nuclide).data
+				when "iaea" then Radiation::Resource::IAEA.new.fetch(@nuclide).data
 				when "nucleide.org" then Radiation::Resource::Nucleideorg.new.fetch(@nuclide).data
 				else raise "Unknown Datasource"
 			end
 			build(data)
 			return self
+		end
+
+		def resources
+			["internal", "iaea", "nucleide.org"]
 		end
 	
 		def read(options={})

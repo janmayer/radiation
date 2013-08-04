@@ -4,6 +4,7 @@ require "radiation/spectrum"
 require "radiation/resource"
 require 'radiation/resource/internal'
 require 'radiation/resource/nucleideorg'
+require 'radiation/resource/iaea'
 
 module Radiation
   # Your code goes here...

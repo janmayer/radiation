@@ -19,6 +19,11 @@ class CLI < Thor
 		puts Radiation::Source.new(nuclide: nuclide, resource: resource).intensities.collect{|l| [l[:energy].value, l[:energy].delta, l[:intensity].value, l[:intensity].delta].join("\t") }
 	end
 
+	desc "resources", "List available data resources"
+	def resources
+		puts Radiation::Source.new.resources
+	end
+
 	option :resource
 	desc "calibrate NUCLIDE SPECTRUM.xml", "calibrate a spectrum"
 	long_desc <<-LONGDESC

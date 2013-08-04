@@ -1,9 +1,10 @@
 # encoding: utf-8
+require 'combinatorics'
 require "linefit"
 require "plusminus"
 require "xmlsimple"
 
-	module Radiation
+module Radiation
 	class Spectrum
 		attr_accessor :peaks, :source, :calibration
 	

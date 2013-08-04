@@ -27,6 +27,7 @@ describe Radiation do
 		it "can access different data resources" do
 			expect { Radiation::Source.new(nuclide: "Ra-226") }.to_not raise_error
 			expect { Radiation::Source.new(nuclide: "Ra-226", resource: "nucleide.org") }.to_not raise_error
+			expect { Radiation::Source.new(nuclide: "Ra-226", resource: "iaea") }.to_not raise_error
 		end
 
 		it "checks for valid nuclei" do
@@ -42,6 +43,7 @@ describe Radiation do
 		it "gives an error if no record is found" do
 			expect { Radiation::Source.new(nuclide: "Ra-15") }.to raise_error
 			expect { Radiation::Source.new(nuclide: "Ra-15", resource: "nucleide.org") }.to raise_error
+			expect { Radiation::Source.new(nuclide: "Ra-15", resource: "iaea") }.to raise_error
 		end
 
 		it "can access nuclide halflife" do
