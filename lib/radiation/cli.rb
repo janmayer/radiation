@@ -55,7 +55,7 @@ class CLI < Thor
 		source   = Radiation::Source.new(nuclide: nuclide, resource: resource)
 		spectrum = Radiation::Spectrum.new(source: source ).parse_hdtv(file)
 		puts ["E_ɣ", "I_ɣ", "ΔI_ɣ", "e", "Δe"].join("\t")
-		spectrum.calibrate.efficiencies.select{|p| p[:intensity] > mini}.sort_by{|k| k[:energy]}.each do |p|
+		spectrum.calibrate.efficiencies.peaks.select{|p| p[:intensity] > mini}.sort_by{|k| k[:energy]}.each do |p|
 			puts [ p[:energy].to_f.round(1), p[:intensity].value, p[:intensity].delta, p[:efficiency].value.round(1), p[:efficiency].delta.round(1) ].join("\t")
 		end
 	end

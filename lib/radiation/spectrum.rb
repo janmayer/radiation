@@ -21,30 +21,14 @@ module Radiation
 	
 			if @peaks.select{|p| p.key?(:channel) and p.key?(:energy)}.empty?
 				if @calibration == [0,1] and @source.nil?
-					raise "No channel <-> energy associations. Specify a Source or a preleminary calibration to improve"
+					raise "No channel <-> energy associations. Specify a Source or a preliminary calibration to improve"
 				else
 					self.guess_calibration
 				end
 				self.match_channels
 			end
-			#calibrate using linefit
-			mpeaks = @peaks.delete_if{|p| p[:energy] == nil}
-			x = mpeaks.collect{|p| p[:channel]}
-			y = mpeaks.collect{|p| p[:energy]}
-			lineFit = LineFit.new
-			lineFit.setData(x,y)
-			intercept, slope = lineFit.coefficients
-			varianceIntercept, varianceSlope = lineFit.varianceOfEstimates
-			@calibration = [intercept.pm(Math.sqrt(varianceIntercept)), slope.pm(Math.sqrt(varianceSlope))]
-			return self
-		end
-	
-		def match_channels(energies=@source.energies, rounding=4)
-			@peaks.each do |peak|
-				energies.each do |energy|
-					peak[:energy] = energy if channel_energy(peak[:channel]).to_f.approx_equal?(energy, rounding)
-				end
-			end
+
+			@calibration = apply_linefit(@peaks)
 			return self
 		end
 	
@@ -71,21 +55,47 @@ module Radiation
 		end
 		
 		def efficiencies(rounding=4)
+			self.match_channels
+			@peaks.select{|p| p.key?(:intensity) and p.key?(:counts)}.each{|p| p[:efficiency] = channel_efficiency(p)}
+			return self
+		end
+
+		def match_channels(source=@source, rounding=4)
 			@peaks.each do |peak|
-				@source.transitions.each do |transition|
+				source.transitions.each do |transition|
 					if channel_energy(peak[:channel]).to_f.approx_equal?(transition[:energy], rounding)
 						peak[:energy] = transition[:energy]
 						peak[:intensity] = transition[:intensity] if transition[:intensity] > 0
 					end
 				end
 			end
-			@peaks.select{|p| p.key?(:intensity) and p.key?(:counts)}.each{|p| p[:efficiency] = channel_efficiency(p)}
 			return self
 		end
 
-	private 
+
 		def channel_efficiency(peak)
 			peak[:counts]/peak[:intensity]
+		end
+
+	private
+		def apply_linefit(peaks)
+			#calibrate using linefit
+			mpeaks = peaks.delete_if{|p| p[:energy] == nil}
+			x = mpeaks.collect{|p| p[:channel]}
+			y = mpeaks.collect{|p| p[:energy]}
+			lineFit = LineFit.new
+
+			# Use weighted calibration when possible
+			if mpeaks.count{|p| p[:intensity] and p[:intensity] > 0} == mpeaks.count
+				weights = mpeaks.collect{|p| p[:intensity].nil? ? 0 : p[:intensity]}
+				lineFit.setData(x,y,weights)
+			else
+				lineFit.setData(x,y)
+			end
+			
+			intercept, slope = lineFit.coefficients
+			varianceIntercept, varianceSlope = lineFit.varianceOfEstimates
+			return [intercept.pm(Math.sqrt(varianceIntercept.abs)), slope.pm(Math.sqrt(varianceSlope.abs))]
 		end
 
 	end
