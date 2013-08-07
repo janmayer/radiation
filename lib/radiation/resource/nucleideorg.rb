@@ -31,7 +31,8 @@ module Radiation::Resource
 				end
 				return @data[:transitions] = [] if start == 0 or uri.count < start
 				@data[:transitions] = uri[start...-1].collect{|line| line.split(' ; ')}.select!{|row| row[4] == "g"}.collect do |row|
-				 {:energy => row[0].to_f.pm(row[1].to_f), :intensity => row[2].to_f.pm(row[3].to_f)} 
+					# Intensities in DDEP are % based
+					{:energy => row[0].to_f.pm(row[1].to_f), :intensity => (row[2].to_f/100).pm(row[3].to_f/100)}
 				end
 			rescue
 				raise "No Data for #{@nuclide}"

@@ -51,7 +51,7 @@ class CLI < Thor
 	LONGDESC
 	def efficiency(nuclide, file)
 		resource = options[:resource] ? options[:resource] : "internal"
-		mini = options[:mini] ? options[:mini] : 0.3
+		mini = options[:mini] ? options[:mini].to_f : 0.003
 		source   = Radiation::Source.new(nuclide: nuclide, resource: resource)
 		spectrum = Radiation::Spectrum.new(source: source ).parse_hdtv(file)
 		puts ["E_ɣ", "I_ɣ", "ΔI_ɣ", "e", "Δe"].join("\t")
