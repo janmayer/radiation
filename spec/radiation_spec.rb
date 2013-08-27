@@ -57,11 +57,11 @@ describe Radiation do
 		source = Radiation::Source.new(nuclide: "Ra-226")
 
 		it "can guess a inital energy calibration based on adc values" do
-			Radiation::Spectrum.new(peaks: peaks, source: source).guess_calibration.calibration.should be == [0, 0.3597]
+			Radiation::Spectrum.new(peaks: peaks, source: source).guess_calibration.calibration.should be == [0, 0.3595]
 		end
 
 		it "can match channels to given energies by using a calibration" do
-			Radiation::Spectrum.new(peaks: peaks, source: source ).guess_calibration.match_channels.peaks[0][:energy].should be == 186.2
+			Radiation::Spectrum.new(peaks: peaks, source: source ).guess_calibration.match_channels.peaks[0][:energy].should be_within(0.1).of(186.2)
 		end
 
 		it "can calibrate a spectrum" do

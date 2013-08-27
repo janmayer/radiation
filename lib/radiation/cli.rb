@@ -14,7 +14,7 @@ class CLI < Thor
 	option :resource
 	desc "source NUCLIDE", "decay radiation data"
 	def source(nuclide)
-		resource = options[:resource] ? options[:resource] : "internal"
+		resource = options[:resource] ? options[:resource] : "iaea"
 		puts ["E_ɣ", "ΔE_ɣ", "I_ɣ", "ΔI_ɣ"].join("\t")
 		puts Radiation::Source.new(nuclide: nuclide, resource: resource).intensities.collect{|l| [l[:energy].value, l[:energy].delta, l[:intensity].value, l[:intensity].delta].join("\t") }
 	end
@@ -33,7 +33,7 @@ class CLI < Thor
 	With --resource=nucleide.org more decay radiation sources are available.
 	LONGDESC
 	def calibrate(nuclide, file)
-		resource = options[:resource] ? options[:resource] : "internal"
+		resource = options[:resource] ? options[:resource] : "iaea"
 		source   = Radiation::Source.new(nuclide: nuclide, resource: resource)
 		spectrum = Radiation::Spectrum.new(source: source ).parse_hdtv(file)
 		spectrum.calibrate.calibration.each{|c| puts c}
@@ -50,7 +50,7 @@ class CLI < Thor
 	With --mini=value transitions with small intensities can be supressed (default 0.3)
 	LONGDESC
 	def efficiency(nuclide, file)
-		resource = options[:resource] ? options[:resource] : "internal"
+		resource = options[:resource] ? options[:resource] : "iaea"
 		mini = options[:mini] ? options[:mini].to_f : 0.003
 		source   = Radiation::Source.new(nuclide: nuclide, resource: resource)
 		spectrum = Radiation::Spectrum.new(source: source ).parse_hdtv(file)
