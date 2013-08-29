@@ -1,3093 +1,866 @@
 <hdtv version="1.3">
-  <fit bgDegree="1" chi="108.508295705" peakModel="theuerkauf">
+  <fit bgDegree="1" chi="76.4033628201" peakModel="theuerkauf">
     <spectrum calibration="" name="B0-Ra226.spc" />
-    <bgMarker>
-      <begin>
-        <cal>12400.9541945</cal>
-        <uncal>12400.9541945</uncal>
-      </begin>
-      <end>
-        <cal>12432.0003276</cal>
-        <uncal>12432.0003276</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>12615.1725131</cal>
-        <uncal>12615.1725131</uncal>
-      </begin>
-      <end>
-        <cal>12638.4571129</cal>
-        <uncal>12638.4571129</uncal>
-      </end>
-    </bgMarker>
     <regionMarker>
       <begin>
-        <cal>12453.7326208</cal>
-        <uncal>12453.7326208</uncal>
+        <cal>15013.5</cal>
+        <uncal>15013.5</uncal>
       </begin>
       <end>
-        <cal>12587.2309932</cal>
-        <uncal>12587.2309932</uncal>
+        <cal>15098.5</cal>
+        <uncal>15098.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>12505.5858229</cal>
-        <uncal>12505.5858229</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="43.2137196929" deg="1">
-      <coeff deg="0">
-        <value>142.292024769</value>
-        <error>99.2323673881</error>
-      </coeff>
-      <coeff deg="1">
-        <value>-0.00836537033425</value>
-        <error>0.00793390616433</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>38.7544137369</value>
-          <error>2.8679523629</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>890.050975557</value>
-          <error>63.7237580645</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>12505.5858229</value>
-          <error>1.40602799804</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>38.7544137369</value>
-          <error>2.8679523629</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>890.050975557</value>
-          <error>63.7237580645</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>12505.5858229</value>
-          <error>1.40602799804</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="220.533435392" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>12629.143273</cal>
-        <uncal>12629.143273</uncal>
-      </begin>
-      <end>
-        <cal>12598.0971398</cal>
-        <uncal>12598.0971398</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>12922.529231</cal>
-        <uncal>12922.529231</uncal>
-      </begin>
-      <end>
-        <cal>12979.9645772</cal>
-        <uncal>12979.9645772</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>12685.0263126</cal>
-        <uncal>12685.0263126</uncal>
-      </begin>
-      <end>
-        <cal>12888.3784845</cal>
-        <uncal>12888.3784845</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>12779.1084923</cal>
-        <uncal>12779.1084923</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="73.414771539" deg="1">
-      <coeff deg="0">
-        <value>143.124551822</value>
-        <error>51.0706768534</error>
-      </coeff>
-      <coeff deg="1">
-        <value>-0.00837586957246</value>
-        <error>0.00397768532701</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>26.6436744399</value>
-          <error>0.657287578203</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>3186.43486239</value>
-          <error>74.0587024671</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>12779.1084923</value>
-          <error>0.301756929172</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>26.6436744399</value>
-          <error>0.657287578203</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>3186.43486239</value>
-          <error>74.0587024671</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>12779.1084923</value>
-          <error>0.301756929172</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="263.299294186" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>13490.6734671</cal>
-        <uncal>13490.6734671</uncal>
-      </begin>
-      <end>
-        <cal>13562.0795733</cal>
-        <uncal>13562.0795733</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>13903.5870376</cal>
-        <uncal>13903.5870376</uncal>
-      </begin>
-      <end>
-        <cal>13929.9762507</cal>
-        <uncal>13929.9762507</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>13869.4362912</cal>
-        <uncal>13869.4362912</uncal>
-      </begin>
-      <end>
-        <cal>13603.991853</cal>
-        <uncal>13603.991853</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>13743.4733143</cal>
-        <uncal>13743.4733143</uncal>
-      </position>
-    </peakMarker>
-    <peakMarker>
-      <position>
-        <cal>13819.9356829</cal>
-        <uncal>13819.9356829</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="91.7177569415" deg="1">
-      <coeff deg="0">
-        <value>27.3835624089</value>
-        <error>47.1175017356</error>
-      </coeff>
-      <coeff deg="1">
-        <value>0.000555268834349</value>
-        <error>0.00345674701297</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>27.7193899984</value>
-          <error>0.313862895308</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>8552.58365577</value>
-          <error>104.522272432</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>13743.4733143</value>
-          <error>0.159921129221</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>27.7193899984</value>
-          <error>0.313862895308</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>8552.58365577</value>
-          <error>104.522272432</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>13743.4733143</value>
-          <error>0.159921129221</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>27.7193899984</value>
-          <error>0.313862895308</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>1521.68528332</value>
-          <error>56.8948562258</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>13819.9356829</value>
-          <error>0.532225119778</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>27.7193899984</value>
-          <error>0.313862895308</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>1521.68528332</value>
-          <error>56.8948562258</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>13819.9356829</value>
-          <error>0.532225119778</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="216.001447749" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>13883.4070511</cal>
-        <uncal>13883.4070511</uncal>
-      </begin>
-      <end>
-        <cal>13905.1393443</cal>
-        <uncal>13905.1393443</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>14128.6715027</cal>
-        <uncal>14128.6715027</uncal>
-      </begin>
-      <end>
-        <cal>14164.3745558</cal>
-        <uncal>14164.3745558</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>13931.5285574</cal>
-        <uncal>13931.5285574</uncal>
-      </begin>
-      <end>
-        <cal>14124.0145828</cal>
-        <uncal>14124.0145828</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>13981.6166286</cal>
-        <uncal>13981.6166286</uncal>
-      </position>
-    </peakMarker>
-    <peakMarker>
-      <position>
-        <cal>14045.7522479</cal>
-        <uncal>14045.7522479</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="50.9600677055" deg="1">
-      <coeff deg="0">
-        <value>137.614231443</value>
-        <error>89.6275361749</error>
-      </coeff>
-      <coeff deg="1">
-        <value>-0.00730052590935</value>
-        <error>0.00637712482335</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>28.2333657673</value>
-          <error>0.415274731054</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>2674.64243809</value>
-          <error>68.1018465974</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>13981.6166286</value>
-          <error>0.369633110526</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>28.2333657673</value>
-          <error>0.415274731054</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>2674.64243809</value>
-          <error>68.1018465974</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>13981.6166286</value>
-          <error>0.369633110526</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>28.2333657673</value>
-          <error>0.415274731054</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>4544.8890378</value>
-          <error>81.8305655953</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>14045.7522479</value>
-          <error>0.247515991722</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>28.2333657673</value>
-          <error>0.415274731054</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>4544.8890378</value>
-          <error>81.8305655953</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>14045.7522479</value>
-          <error>0.247515991722</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="342.637328287" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>14680.4506658</cal>
-        <uncal>14680.4506658</uncal>
-      </begin>
-      <end>
-        <cal>14456.9185073</cal>
-        <uncal>14456.9185073</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>15180.2934091</cal>
-        <uncal>15180.2934091</uncal>
-      </begin>
-      <end>
-        <cal>15229.9672221</cal>
-        <uncal>15229.9672221</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>14851.204398</cal>
-        <uncal>14851.204398</uncal>
-      </begin>
-      <end>
-        <cal>15143.0380493</cal>
-        <uncal>15143.0380493</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>15055.9520054</cal>
-        <uncal>15055.9520054</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="284.6010678" deg="1">
-      <coeff deg="0">
-        <value>1.45848690235</value>
-        <error>21.3518083438</error>
-      </coeff>
-      <coeff deg="1">
-        <value>0.00232518151503</value>
-        <error>0.00145440199199</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>30.9303771091</value>
-          <error>0.648374579381</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>4328.33593732</value>
-          <error>83.9750226527</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>15055.9520054</value>
-          <error>0.287769386464</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>30.9303771091</value>
-          <error>0.648374579381</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>4328.33593732</value>
-          <error>83.9750226527</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>15055.9520054</value>
-          <error>0.287769386464</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="243.545875974" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>15146.1426626</cal>
-        <uncal>15146.1426626</uncal>
-      </begin>
-      <end>
-        <cal>15189.607249</cal>
-        <uncal>15189.607249</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>15565.2654598</cal>
-        <uncal>15565.2654598</uncal>
-      </begin>
-      <end>
-        <cal>15618.0438861</cal>
-        <uncal>15618.0438861</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>15267.2225818</cal>
-        <uncal>15267.2225818</uncal>
-      </begin>
-      <end>
-        <cal>15503.1731935</cal>
-        <uncal>15503.1731935</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>15349.0633095</cal>
-        <uncal>15349.0633095</uncal>
-      </position>
-    </peakMarker>
-    <peakMarker>
-      <position>
-        <cal>15395.6503567</cal>
-        <uncal>15395.6503567</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="85.1867818133" deg="1">
-      <coeff deg="0">
-        <value>418.829013247</value>
-        <error>42.1209300709</error>
-      </coeff>
-      <coeff deg="1">
-        <value>-0.0252067983589</value>
-        <error>0.00272826835259</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>30.5926518529</value>
-          <error>1.48877510896</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>1081.05789749</value>
-          <error>56.4113454217</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>15349.0633095</value>
-          <error>0.948440191184</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>30.5926518529</value>
-          <error>1.48877510896</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>1081.05789749</value>
-          <error>56.4113454217</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>15349.0633095</value>
-          <error>0.948440191184</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>30.5926518529</value>
-          <error>1.48877510896</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>755.00502767</value>
-          <error>49.178583014</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>15395.6503567</value>
-          <error>1.05134897871</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>30.5926518529</value>
-          <error>1.48877510896</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>755.00502767</value>
-          <error>49.178583014</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>15395.6503567</value>
-          <error>1.05134897871</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="357.84005618" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>15620.3628822</cal>
-        <uncal>15620.3628822</uncal>
-      </begin>
-      <end>
-        <cal>15652.961322</cal>
-        <uncal>15652.961322</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>16124.8625454</cal>
-        <uncal>16124.8625454</uncal>
-      </begin>
-      <end>
-        <cal>16222.6578647</cal>
-        <uncal>16222.6578647</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>15680.9028418</cal>
-        <uncal>15680.9028418</uncal>
-      </begin>
-      <end>
-        <cal>16061.2179725</cal>
-        <uncal>16061.2179725</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>15794.4452644</cal>
-        <uncal>15794.4452644</uncal>
-      </position>
-    </peakMarker>
-    <peakMarker>
-      <position>
-        <cal>15908.9547537</cal>
-        <uncal>15908.9547537</uncal>
-      </position>
-    </peakMarker>
-    <peakMarker>
-      <position>
-        <cal>15954.6215352</cal>
-        <uncal>15954.6215352</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="137.79991553" deg="1">
-      <coeff deg="0">
-        <value>238.163534461</value>
-        <error>30.5536306756</error>
-      </coeff>
-      <coeff deg="1">
-        <value>-0.0134642993479</value>
-        <error>0.00190111658941</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>29.9214108614</value>
-          <error>1.07693168905</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>1355.14003936</value>
-          <error>54.4164294631</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>15794.4452644</value>
-          <error>0.607898937194</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>29.9214108614</value>
-          <error>1.07693168905</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>1355.14003936</value>
-          <error>54.4164294631</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>15794.4452644</value>
-          <error>0.607898937194</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>29.9214108614</value>
-          <error>1.07693168905</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>495.289510699</value>
-          <error>41.3000712848</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>15908.9547537</value>
-          <error>1.44084904501</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>29.9214108614</value>
-          <error>1.07693168905</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>495.289510699</value>
-          <error>41.3000712848</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>15908.9547537</value>
-          <error>1.44084904501</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>29.9214108614</value>
-          <error>1.07693168905</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>576.677451178</value>
-          <error>42.3064001832</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>15954.6215352</value>
-          <error>1.27933000065</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>29.9214108614</value>
-          <error>1.07693168905</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>576.677451178</value>
-          <error>42.3064001832</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>15954.6215352</value>
-          <error>1.27933000065</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="273.976938186" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>16312.6916508</cal>
-        <uncal>16312.6916508</uncal>
-      </begin>
-      <end>
-        <cal>16359.2608505</cal>
-        <uncal>16359.2608505</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>16691.4544749</cal>
-        <uncal>16691.4544749</uncal>
-      </begin>
-      <end>
-        <cal>16730.2621413</cal>
-        <uncal>16730.2621413</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>16654.1991151</cal>
-        <uncal>16654.1991151</uncal>
-      </begin>
-      <end>
-        <cal>16427.5623433</cal>
-        <uncal>16427.5623433</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>16571.6484003</cal>
-        <uncal>16571.6484003</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="80.2513018398" deg="1">
-      <coeff deg="0">
-        <value>259.463548792</value>
-        <error>35.9778581911</error>
-      </coeff>
-      <coeff deg="1">
-        <value>-0.0148198698701</value>
-        <error>0.0021747354193</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>32.233681577</value>
-          <error>0.956035090225</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>1926.92136437</value>
-          <error>54.8187782184</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>16571.6484003</value>
-          <error>0.448895098028</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>32.233681577</value>
-          <error>0.956035090225</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>1926.92136437</value>
-          <error>54.8187782184</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>16571.6484003</value>
-          <error>0.448895098028</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="264.498219632" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>16685.2452483</cal>
-        <uncal>16685.2452483</uncal>
-      </begin>
-      <end>
-        <cal>16703.8729281</cal>
-        <uncal>16703.8729281</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>17042.2757791</cal>
-        <uncal>17042.2757791</uncal>
-      </begin>
-      <end>
-        <cal>17095.0542055</cal>
-        <uncal>17095.0542055</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>16750.4421278</cal>
-        <uncal>16750.4421278</uncal>
-      </begin>
-      <end>
-        <cal>16980.1835129</cal>
-        <uncal>16980.1835129</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>16800.075397</cal>
-        <uncal>16800.075397</uncal>
-      </position>
-    </peakMarker>
-    <peakMarker>
-      <position>
-        <cal>16889.1570582</cal>
-        <uncal>16889.1570582</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="70.7022201657" deg="1">
-      <coeff deg="0">
-        <value>99.0448334708</value>
-        <error>41.8057918542</error>
-      </coeff>
-      <coeff deg="1">
-        <value>-0.00521249943708</value>
-        <error>0.00246106116065</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>36.6010188171</value>
-          <error>2.1921212655</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>401.564687511</value>
-          <error>33.1317121362</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>16800.075397</value>
-          <error>1.44142563626</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>36.6010188171</value>
-          <error>2.1921212655</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>401.564687511</value>
-          <error>33.1317121362</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>16800.075397</value>
-          <error>1.44142563626</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>36.6010188171</value>
-          <error>2.1921212655</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>522.321412367</value>
-          <error>38.3513014967</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>16889.1570582</value>
-          <error>1.48975462519</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>36.6010188171</value>
-          <error>2.1921212655</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>522.321412367</value>
-          <error>38.3513014967</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>16889.1570582</value>
-          <error>1.48975462519</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="164.884783288" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>17112.905732</cal>
-        <uncal>17112.905732</uncal>
-      </begin>
-      <end>
-        <cal>17060.903459</cal>
-        <uncal>17060.903459</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>17365.9317169</cal>
-        <uncal>17365.9317169</uncal>
-      </begin>
-      <end>
-        <cal>17400.8586167</cal>
-        <uncal>17400.8586167</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>17326.3478972</cal>
-        <uncal>17326.3478972</uncal>
-      </begin>
-      <end>
-        <cal>17180.4310715</cal>
-        <uncal>17180.4310715</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>17254.7957258</cal>
-        <uncal>17254.7957258</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="82.5998396598" deg="1">
-      <coeff deg="0">
-        <value>27.2118471623</value>
-        <error>40.2694876076</error>
-      </coeff>
-      <coeff deg="1">
-        <value>-0.000991400606967</value>
-        <error>0.00234009532864</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>31.6248196138</value>
-          <error>0.430041123303</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>5357.49180219</value>
-          <error>78.4684534378</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>17254.7957258</value>
-          <error>0.212609451982</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>31.6248196138</value>
-          <error>0.430041123303</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>5357.49180219</value>
-          <error>78.4684534378</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>17254.7957258</value>
-          <error>0.212609451982</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="264.440870637" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>18171.5788714</cal>
-        <uncal>18171.5788714</uncal>
-      </begin>
-      <end>
-        <cal>18125.0096718</cal>
-        <uncal>18125.0096718</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>18588.3732086</cal>
-        <uncal>18588.3732086</uncal>
-      </begin>
-      <end>
-        <cal>18560.4316888</cal>
-        <uncal>18560.4316888</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>18525.504789</cal>
-        <uncal>18525.504789</uncal>
-      </begin>
-      <end>
-        <cal>18249.9703576</cal>
-        <uncal>18249.9703576</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>18339.7253348</cal>
-        <uncal>18339.7253348</uncal>
-      </position>
-    </peakMarker>
-    <peakMarker>
-      <position>
-        <cal>18430.2447921</cal>
-        <uncal>18430.2447921</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="63.6713419559" deg="1">
-      <coeff deg="0">
-        <value>-46.2393794654</value>
-        <error>31.0274834333</error>
-      </coeff>
-      <coeff deg="1">
-        <value>0.00300538168648</value>
-        <error>0.00169579764462</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>31.9354958338</value>
-          <error>0.543030216155</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>550.946337935</value>
-          <error>32.7110770296</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>18339.7253348</value>
-          <error>0.988026313419</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>31.9354958338</value>
-          <error>0.543030216155</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>550.946337935</value>
-          <error>32.7110770296</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>18339.7253348</value>
-          <error>0.988026313419</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>31.9354958338</value>
-          <error>0.543030216155</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>3391.47376628</value>
-          <error>64.1374241176</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>18430.2447921</value>
-          <error>0.281459282455</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>31.9354958338</value>
-          <error>0.543030216155</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>3391.47376628</value>
-          <error>64.1374241176</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>18430.2447921</value>
-          <error>0.281459282455</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="150.070819264" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>18544.1324689</cal>
-        <uncal>18544.1324689</uncal>
-      </begin>
-      <end>
-        <cal>18563.5363021</cal>
-        <uncal>18563.5363021</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>18762.2315541</cal>
-        <uncal>18762.2315541</uncal>
-      </begin>
-      <end>
-        <cal>18788.6207672</cal>
-        <uncal>18788.6207672</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>18752.1415608</cal>
-        <uncal>18752.1415608</uncal>
-      </begin>
-      <end>
-        <cal>18604.6724285</cal>
-        <uncal>18604.6724285</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>18686.9566821</cal>
-        <uncal>18686.9566821</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="41.337141356" deg="1">
-      <coeff deg="0">
-        <value>-54.8991029327</value>
-        <error>75.9199761799</error>
-      </coeff>
-      <coeff deg="1">
-        <value>0.0034223386896</value>
-        <error>0.00406473910144</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>31.5923447711</value>
-          <error>3.25957707937</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>314.428411791</value>
-          <error>30.8546862828</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>18686.9566821</value>
-          <error>1.5583711553</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>31.5923447711</value>
-          <error>3.25957707937</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>314.428411791</value>
-          <error>30.8546862828</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>18686.9566821</value>
-          <error>1.5583711553</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="272.094901529" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>20838.9367971</cal>
-        <uncal>20838.9367971</uncal>
-      </begin>
-      <end>
-        <cal>20761.3214643</cal>
-        <uncal>20761.3214643</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>21382.2441267</cal>
-        <uncal>21382.2441267</uncal>
-      </begin>
-      <end>
-        <cal>21394.66258</cal>
-        <uncal>21394.66258</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>21220.8042345</cal>
-        <uncal>21220.8042345</uncal>
-      </begin>
-      <end>
-        <cal>20963.1213296</cal>
-        <uncal>20963.1213296</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>21134.849739</cal>
-        <uncal>21134.849739</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="82.6931143009" deg="1">
-      <coeff deg="0">
-        <value>64.1735113178</value>
-        <error>15.5612891375</error>
-      </coeff>
-      <coeff deg="1">
-        <value>-0.00291811098302</value>
-        <error>0.000742942355725</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>34.7499412426</value>
-          <error>0.807138938101</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>1673.33542979</value>
-          <error>43.5327776054</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>21134.849739</value>
-          <error>0.416214666564</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>34.7499412426</value>
-          <error>0.807138938101</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>1673.33542979</value>
-          <error>43.5327776054</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>21134.849739</value>
-          <error>0.416214666564</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="220.57715469" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>21764.8390529</cal>
-        <uncal>21764.8390529</uncal>
-      </begin>
-      <end>
-        <cal>21825.2096139</cal>
-        <uncal>21825.2096139</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>22109.5000737</cal>
-        <uncal>22109.5000737</uncal>
-      </begin>
-      <end>
-        <cal>22185.2376865</cal>
-        <uncal>22185.2376865</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>21885.5801748</cal>
-        <uncal>21885.5801748</uncal>
-      </begin>
-      <end>
-        <cal>22087.5471424</cal>
-        <uncal>22087.5471424</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>21988.2797213</cal>
-        <uncal>21988.2797213</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="96.1521293316" deg="1">
-      <coeff deg="0">
-        <value>25.8379767022</value>
-        <error>16.037962911</error>
-      </coeff>
-      <coeff deg="1">
-        <value>-0.00108383780051</value>
-        <error>0.000728604400731</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>36.0552410335</value>
-          <error>0.363361679427</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>7039.57174601</value>
-          <error>85.0707150777</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>21988.2797213</value>
-          <error>0.194760570277</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>36.0552410335</value>
-          <error>0.363361679427</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>7039.57174601</value>
-          <error>85.0707150777</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>21988.2797213</value>
-          <error>0.194760570277</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="110.316425218" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>22671.4951139</cal>
-        <uncal>22671.4951139</uncal>
-      </begin>
-      <end>
-        <cal>22717.5962696</cal>
-        <uncal>22717.5962696</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>23074.3314026</cal>
-        <uncal>23074.3314026</uncal>
-      </begin>
-      <end>
-        <cal>23137.9949032</cal>
-        <uncal>23137.9949032</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>22757.1115458</cal>
-        <uncal>22757.1115458</uncal>
-      </begin>
-      <end>
-        <cal>23004.0820225</cal>
-        <uncal>23004.0820225</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>22879.8022799</cal>
-        <uncal>22879.8022799</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="23.3311458494" deg="1">
-      <coeff deg="0">
-        <value>-0.265888253705</value>
-        <error>15.4103652232</error>
-      </coeff>
-      <coeff deg="1">
-        <value>7.07778826509e-05</value>
-        <error>0.000672320742423</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>31.8332807096</value>
-          <error>1.93849594874</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>361.69977037</value>
-          <error>21.668133959</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>22879.8022799</value>
-          <error>0.899417565762</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>31.8332807096</value>
-          <error>1.93849594874</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>361.69977037</value>
-          <error>21.668133959</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>22879.8022799</value>
-          <error>0.899417565762</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="124.528172409" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>24266.37557</cal>
-        <uncal>24266.37557</uncal>
-      </begin>
-      <end>
-        <cal>24150.0250343</cal>
-        <uncal>24150.0250343</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>24606.6460045</cal>
-        <uncal>24606.6460045</uncal>
-      </begin>
-      <end>
-        <cal>24686.7742036</cal>
-        <uncal>24686.7742036</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>24513.3460466</cal>
-        <uncal>24513.3460466</uncal>
-      </begin>
-      <end>
-        <cal>24312.4767256</cal>
-        <uncal>24312.4767256</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>24419.3462282</cal>
-        <uncal>24419.3462282</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="6.09903353424" deg="1">
-      <coeff deg="0">
-        <value>4.76275541893</value>
-        <error>16.9429379247</error>
-      </coeff>
-      <coeff deg="1">
-        <value>-0.000150263437806</value>
-        <error>0.00069487446729</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>33.969733107</value>
-          <error>0.714874299135</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>1746.02326385</value>
-          <error>42.9776181224</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>24419.3462282</value>
-          <error>0.379253373238</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>33.969733107</value>
-          <error>0.714874299135</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>1746.02326385</value>
-          <error>42.9776181224</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>24419.3462282</value>
-          <error>0.379253373238</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="273.298406363" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <regionMarker>
-      <begin>
-        <cal>413.0</cal>
-        <uncal>413.0</uncal>
-      </begin>
-      <end>
-        <cal>583.0</cal>
-        <uncal>583.0</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>462.934127558</cal>
-        <uncal>462.934127558</uncal>
-      </position>
-    </peakMarker>
-    <peakMarker>
-      <position>
-        <cal>529.072627208</cal>
-        <uncal>529.072627208</uncal>
+        <cal>15056.0562183</cal>
+        <uncal>15056.0562183</uncal>
       </position>
     </peakMarker>
     <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>-1510.41652588</value>
-        <error>14.5822490435</error>
+        <value>236.95605448</value>
+        <error>12.6011540056</error>
       </coeff>
       <coeff deg="1">
-        <value>3.84879633548</value>
-        <error>0.0314213476891</error>
+        <value>-0.0130262722986</value>
+        <error>0.000836930201986</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>16.9092007891</value>
-          <error>0.159529249763</error>
+          <value>29.0967217945</value>
+          <error>0.873772490756</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>16088.4379435</value>
-          <error>175.714388376</error>
+          <value>4018.16809022</value>
+          <error>134.410548142</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>462.934127558</value>
-          <error>0.0829007246491</error>
+          <value>15056.0562183</value>
+          <error>0.290158444718</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>16.9092007891</value>
-          <error>0.159529249763</error>
+          <value>29.0967217945</value>
+          <error>0.873772490756</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>16088.4379435</value>
-          <error>175.714388376</error>
+          <value>4018.16809022</value>
+          <error>134.410548142</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>462.934127558</value>
-          <error>0.0829007246491</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>16.9092007891</value>
-          <error>0.159529249763</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>12045.6897272</value>
-          <error>195.702574301</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>529.072627208</value>
-          <error>0.12974175681</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>16.9092007891</value>
-          <error>0.159529249763</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>12045.6897272</value>
-          <error>195.702574301</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>529.072627208</value>
-          <error>0.12974175681</error>
+          <value>15056.0562183</value>
+          <error>0.290158444718</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="91.9630078207" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>626.108634282</cal>
-        <uncal>626.108634282</uncal>
-      </begin>
-      <end>
-        <cal>610.200670839</cal>
-        <uncal>610.200670839</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>709.128318499</cal>
-        <uncal>709.128318499</uncal>
-      </begin>
-      <end>
-        <cal>713.602433217</cal>
-        <uncal>713.602433217</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="89.983699048" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>638.536730721</cal>
-        <uncal>638.536730721</uncal>
+        <cal>15751.5</cal>
+        <uncal>15751.5</uncal>
       </begin>
       <end>
-        <cal>700.67721292</cal>
-        <uncal>700.67721292</uncal>
+        <cal>15836.5</cal>
+        <uncal>15836.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>677.552738668</cal>
-        <uncal>677.552738668</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="4.40270495455" deg="1">
-      <coeff deg="0">
-        <value>602.679742042</value>
-        <error>119.876762397</error>
-      </coeff>
-      <coeff deg="1">
-        <value>0.562627723612</value>
-        <error>0.188080078468</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <vol status="free">
-          <value>7769.08204992</value>
-          <error>300.811068761</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>677.552738668</value>
-          <error>0.622631473082</error>
-        </pos>
-        <width status="equal">
-          <value>32.9082105289</value>
-          <error>1.4831075017</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-      </uncal>
-      <cal>
-        <vol status="free">
-          <value>7769.08204992</value>
-          <error>300.811068761</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>677.552738668</value>
-          <error>0.622631473082</error>
-        </pos>
-        <width status="equal">
-          <value>32.9082105289</value>
-          <error>1.4831075017</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="554.29260762" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>931.34268284</cal>
-        <uncal>931.34268284</uncal>
-      </begin>
-      <end>
-        <cal>951.227637144</cal>
-        <uncal>951.227637144</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>638.039606864</cal>
-        <uncal>638.039606864</uncal>
-      </begin>
-      <end>
-        <cal>643.507969297</cal>
-        <uncal>643.507969297</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>707.636946926</cal>
-        <uncal>707.636946926</uncal>
-      </begin>
-      <end>
-        <cal>818.495567168</cal>
-        <uncal>818.495567168</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>743.729684778</cal>
-        <uncal>743.729684778</uncal>
-      </position>
-    </peakMarker>
-    <peakMarker>
-      <position>
-        <cal>766.508136899</cal>
-        <uncal>766.508136899</uncal>
-      </position>
-    </peakMarker>
-    <peakMarker>
-      <position>
-        <cal>786.892573396</cal>
-        <uncal>786.892573396</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="26.6671026352" deg="1">
-      <coeff deg="0">
-        <value>1446.69418566</value>
-        <error>45.6190171305</error>
-      </coeff>
-      <coeff deg="1">
-        <value>-0.736737996099</value>
-        <error>0.0507041424163</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>19.1161750769</value>
-          <error>0.0713806282551</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>91666.2104365</value>
-          <error>429.470670863</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>743.729684778</value>
-          <error>0.0492792709788</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>19.1161750769</value>
-          <error>0.0713806282551</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>91666.2104365</value>
-          <error>429.470670863</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>743.729684778</value>
-          <error>0.0492792709788</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>19.1161750769</value>
-          <error>0.0713806282551</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>166859.740919</value>
-          <error>634.548316161</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>766.508136899</value>
-          <error>0.0496343643434</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>19.1161750769</value>
-          <error>0.0713806282551</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>166859.740919</value>
-          <error>634.548316161</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>766.508136899</value>
-          <error>0.0496343643434</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>19.1161750769</value>
-          <error>0.0713806282551</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>21697.3988108</value>
-          <error>460.613931927</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>786.892573396</value>
-          <error>0.244395906398</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>19.1161750769</value>
-          <error>0.0713806282551</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>21697.3988108</value>
-          <error>460.613931927</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>786.892573396</value>
-          <error>0.244395906398</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="184.250541447" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>936.197217433</cal>
-        <uncal>936.197217433</uncal>
-      </begin>
-      <end>
-        <cal>954.590800163</cal>
-        <uncal>954.590800163</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>810.424881463</cal>
-        <uncal>810.424881463</uncal>
-      </begin>
-      <end>
-        <cal>817.384615469</cal>
-        <uncal>817.384615469</uncal>
-      </end>
-    </bgMarker>
-    <regionMarker>
-      <begin>
-        <cal>818.378863184</cal>
-        <uncal>818.378863184</uncal>
-      </begin>
-      <end>
-        <cal>931.971664643</cal>
-        <uncal>931.971664643</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>833.227235756</cal>
-        <uncal>833.227235756</uncal>
-      </position>
-    </peakMarker>
-    <peakMarker>
-      <position>
-        <cal>867.446126759</cal>
-        <uncal>867.446126759</uncal>
-      </position>
-    </peakMarker>
-    <peakMarker>
-      <position>
-        <cal>893.033351324</cal>
-        <uncal>893.033351324</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="38.6842068782" deg="1">
-      <coeff deg="0">
-        <value>1559.94406758</value>
-        <error>89.1186503386</error>
-      </coeff>
-      <coeff deg="1">
-        <value>-0.852898089375</value>
-        <error>0.0974964674937</error>
-      </coeff>
-    </background>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>20.0887960446</value>
-          <error>0.127895498737</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>2059.76160241</value>
-          <error>171.353872752</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>833.227235756</value>
-          <error>0.863961747538</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>20.0887960446</value>
-          <error>0.127895498737</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>2059.76160241</value>
-          <error>171.353872752</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>833.227235756</value>
-          <error>0.863961747538</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>20.0887960446</value>
-          <error>0.127895498737</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>49315.4610344</value>
-          <error>319.376077951</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>867.446126759</value>
-          <error>0.0698130905424</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>20.0887960446</value>
-          <error>0.127895498737</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>49315.4610344</value>
-          <error>319.376077951</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>867.446126759</value>
-          <error>0.0698130905424</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>20.0887960446</value>
-          <error>0.127895498737</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>20751.7410735</value>
-          <error>242.513326345</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>893.033351324</value>
-          <error>0.157337605389</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>20.0887960446</value>
-          <error>0.127895498737</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>20751.7410735</value>
-          <error>242.513326345</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>893.033351324</value>
-          <error>0.157337605389</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-  </fit>
-  <fit bgDegree="1" chi="93.4629277083" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <regionMarker>
-      <begin>
-        <cal>1806.0</cal>
-        <uncal>1806.0</uncal>
-      </begin>
-      <end>
-        <cal>1906.0</cal>
-        <uncal>1906.0</uncal>
-      </end>
-    </regionMarker>
-    <peakMarker>
-      <position>
-        <cal>1856.20171451</cal>
-        <uncal>1856.20171451</uncal>
+        <cal>15794.2856956</cal>
+        <uncal>15794.2856956</uncal>
       </position>
     </peakMarker>
     <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>1647.07918964</value>
-        <error>181.494963312</error>
+        <value>68.9613527226</value>
+        <error>9.17056871495</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.472636525272</value>
-        <error>0.0977292097987</error>
+        <value>-0.00278784287271</value>
+        <error>0.000580614806242</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>19.5830429326</value>
-          <error>0.151700025873</error>
+          <value>30.3624450709</value>
+          <error>1.87451983103</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>41943.0919325</value>
-          <error>328.210265576</error>
+          <value>1391.31607573</value>
+          <error>102.743042787</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>1856.20171451</value>
-          <error>0.0644022621048</error>
+          <value>15794.2856956</value>
+          <error>0.608550147416</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>19.5830429326</value>
-          <error>0.151700025873</error>
+          <value>30.3624450709</value>
+          <error>1.87451983103</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>41943.0919325</value>
-          <error>328.210265576</error>
+          <value>1391.31607573</value>
+          <error>102.743042787</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>1856.20171451</value>
-          <error>0.0644022621048</error>
+          <value>15794.2856956</value>
+          <error>0.608550147416</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="179.391084768" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
+  <fit bgDegree="1" chi="94.9727454369" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>2362.0</cal>
-        <uncal>2362.0</uncal>
+        <cal>16529.5</cal>
+        <uncal>16529.5</uncal>
       </begin>
       <end>
-        <cal>2462.0</cal>
-        <uncal>2462.0</uncal>
+        <cal>16614.5</cal>
+        <uncal>16614.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>2412.38613709</cal>
-        <uncal>2412.38613709</uncal>
+        <cal>16572.6589076</cal>
+        <uncal>16572.6589076</uncal>
       </position>
     </peakMarker>
     <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>1524.62966848</value>
-        <error>180.100659779</error>
+        <value>1537.48863944</value>
+        <error>371.459733681</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.444695009639</value>
-        <error>0.0746216821169</error>
+        <value>-0.0919374777177</value>
+        <error>0.0224055969509</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>18.5484022725</value>
-          <error>0.0850912406441</error>
+          <value>32.1157205009</value>
+          <error>1.47125721631</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>68825.053107</value>
-          <error>325.785768778</error>
+          <value>1926.02669976</value>
+          <error>99.315924448</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>2412.38613709</value>
-          <error>0.0384038193292</error>
+          <value>16572.6589076</value>
+          <error>0.525134814658</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>18.5484022725</value>
-          <error>0.0850912406441</error>
+          <value>32.1157205009</value>
+          <error>1.47125721631</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>68825.053107</value>
-          <error>325.785768778</error>
+          <value>1926.02669976</value>
+          <error>99.315924448</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>2412.38613709</value>
-          <error>0.0384038193292</error>
+          <value>16572.6589076</value>
+          <error>0.525134814658</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="368.882257314" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
+  <fit bgDegree="1" chi="84.995702535" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>2892.0</cal>
-        <uncal>2892.0</uncal>
+        <cal>17212.5</cal>
+        <uncal>17212.5</uncal>
       </begin>
       <end>
-        <cal>2992.0</cal>
-        <uncal>2992.0</uncal>
+        <cal>17297.5</cal>
+        <uncal>17297.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>2942.66079088</cal>
-        <uncal>2942.66079088</uncal>
+        <cal>17255.2144367</cal>
+        <uncal>17255.2144367</uncal>
       </position>
     </peakMarker>
     <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>-126.698357538</value>
-        <error>189.989479572</error>
+        <value>1364.90467887</value>
+        <error>8.96788867311</error>
       </coeff>
       <coeff deg="1">
-        <value>0.151657541949</value>
-        <error>0.0645927777698</error>
+        <value>-0.0783040041346</value>
+        <error>0.000519553965654</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>20.8158692969</value>
-          <error>0.0538432000544</error>
+          <value>30.1378046147</value>
+          <error>0.591736034328</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>148650.827335</value>
-          <error>429.474427416</error>
+          <value>5084.18865765</value>
+          <error>110.491149962</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>2942.66079088</value>
-          <error>0.0263856390213</error>
+          <value>17255.2144367</value>
+          <error>0.215347824403</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>20.8158692969</value>
-          <error>0.0538432000544</error>
+          <value>30.1378046147</value>
+          <error>0.591736034328</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>148650.827335</value>
-          <error>429.474427416</error>
+          <value>5084.18865765</value>
+          <error>110.491149962</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>2942.66079088</value>
-          <error>0.0263856390213</error>
+          <value>17255.2144367</value>
+          <error>0.215347824403</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="209.283940214" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
+  <fit bgDegree="1" chi="104.431935073" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>3458.0</cal>
-        <uncal>3458.0</uncal>
+        <cal>17560.5</cal>
+        <uncal>17560.5</uncal>
       </begin>
       <end>
-        <cal>3558.0</cal>
-        <uncal>3558.0</uncal>
+        <cal>17645.5</cal>
+        <uncal>17645.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>3508.25430556</cal>
-        <uncal>3508.25430556</uncal>
+        <cal>17603.1139718</cal>
+        <uncal>17603.1139718</uncal>
       </position>
     </peakMarker>
     <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>1137.40436943</value>
-        <error>216.869511745</error>
+        <value>5457.36252592</value>
+        <error>595.487810567</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.244817457136</value>
-        <error>0.0617930063604</error>
+        <value>-0.308966767777</value>
+        <error>0.0338000085035</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>22.1782522701</value>
-          <error>0.0413377607624</error>
+          <value>30.9599594494</value>
+          <error>0.235205523457</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>246318.683613</value>
-          <error>533.581495181</error>
+          <value>25721.3084514</value>
+          <error>212.988755555</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>3508.25430556</value>
-          <error>0.0209029835604</error>
+          <value>17603.1139718</value>
+          <error>0.100608058633</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>22.1782522701</value>
-          <error>0.0413377607624</error>
+          <value>30.9599594495</value>
+          <error>0.235205523457</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>246318.683613</value>
-          <error>533.581495181</error>
+          <value>25721.3084514</value>
+          <error>212.988755555</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>3508.25430556</value>
-          <error>0.0209029835604</error>
+          <value>17603.1139718</value>
+          <error>0.100608058633</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="205.826445806" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
+  <fit bgDegree="1" chi="66.9999006303" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>6026.0</cal>
-        <uncal>6026.0</uncal>
+        <cal>18387.5</cal>
+        <uncal>18387.5</uncal>
       </begin>
       <end>
-        <cal>6126.0</cal>
-        <uncal>6126.0</uncal>
+        <cal>18472.5</cal>
+        <uncal>18472.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>6075.73082775</cal>
-        <uncal>6075.73082775</uncal>
+        <cal>18430.2836835</cal>
+        <uncal>18430.2836835</uncal>
       </position>
     </peakMarker>
     <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>376.385190641</value>
-        <error>241.116205229</error>
+        <value>-4.35529626408</value>
+        <error>7.68097821136</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.0440167919026</value>
-        <error>0.0396713780007</error>
+        <value>0.000772048026585</value>
+        <error>0.000416806417935</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>23.4511905889</value>
-          <error>0.0492191661075</error>
+          <value>31.613756116</value>
+          <error>0.855696482963</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>181562.38994</value>
-          <error>447.003729322</error>
+          <value>3339.91518073</value>
+          <error>99.6843269376</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>6075.73082775</value>
-          <error>0.0249701917596</error>
+          <value>18430.2836835</value>
+          <error>0.28301810076</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>23.4511905889</value>
-          <error>0.0492191661075</error>
+          <value>31.613756116</value>
+          <error>0.855696482963</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>181562.38994</value>
-          <error>447.003729322</error>
+          <value>3339.91518073</value>
+          <error>99.6843269376</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>6075.73082775</value>
-          <error>0.0249701917596</error>
+          <value>18430.2836835</value>
+          <error>0.28301810076</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="110.897687738" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
+  <fit bgDegree="1" chi="91.0886149705" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>7612.0</cal>
-        <uncal>7612.0</uncal>
+        <cal>21092.5</cal>
+        <uncal>21092.5</uncal>
       </begin>
       <end>
-        <cal>7712.0</cal>
-        <uncal>7712.0</uncal>
+        <cal>21177.5</cal>
+        <uncal>21177.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>7662.17602663</cal>
-        <uncal>7662.17602663</uncal>
+        <cal>21134.9318735</cal>
+        <uncal>21134.9318735</uncal>
       </position>
     </peakMarker>
     <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>375.473050776</value>
-        <error>245.198265275</error>
+        <value>144.632454076</value>
+        <error>4.77698840343</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.0391765375767</value>
-        <error>0.031999262521</error>
+        <value>-0.00672641219206</value>
+        <error>0.000226048644665</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>24.8430798869</value>
-          <error>0.252452023079</error>
+          <value>34.846588358</value>
+          <error>1.43599770942</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>15889.5846854</value>
-          <error>165.713149397</error>
+          <value>1676.81194563</value>
+          <error>77.0493118877</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>7662.17602663</value>
-          <error>0.108446900307</error>
+          <value>21134.9318735</value>
+          <error>0.417960784527</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>24.8430798869</value>
-          <error>0.252452023079</error>
+          <value>34.846588358</value>
+          <error>1.43599770942</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>15889.5846854</value>
-          <error>165.713149397</error>
+          <value>1676.81194563</value>
+          <error>77.0493118877</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>7662.17602663</value>
-          <error>0.108446900307</error>
+          <value>21134.9318735</value>
+          <error>0.417960784527</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="107.426926224" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
+  <fit bgDegree="1" chi="74.0047130104" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>11126.0</cal>
-        <uncal>11126.0</uncal>
+        <cal>21946.5</cal>
+        <uncal>21946.5</uncal>
       </begin>
       <end>
-        <cal>11226.0</cal>
-        <uncal>11226.0</uncal>
+        <cal>22031.5</cal>
+        <uncal>22031.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>11176.0001381</cal>
-        <uncal>11176.0001381</uncal>
+        <cal>21989.2184493</cal>
+        <uncal>21989.2184493</uncal>
       </position>
     </peakMarker>
     <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>709.164548501</value>
-        <error>312.674037718</error>
+        <value>2821.5355291</value>
+        <error>513.467516597</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.058699644692</value>
-        <error>0.0279739973525</error>
+        <value>-0.127969427367</value>
+        <error>0.0233352435687</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>25.4810830654</value>
-          <error>0.137793376101</error>
+          <value>33.8589033595</value>
+          <error>0.624269009703</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>35661.8120122</value>
-          <error>213.253496934</error>
+          <value>6580.15894568</value>
+          <error>134.509053968</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>11176.0001381</value>
-          <error>0.0655847355261</error>
+          <value>21989.2184493</value>
+          <error>0.243039236465</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>25.4810830654</value>
-          <error>0.137793376101</error>
+          <value>33.8589033595</value>
+          <error>0.624269009703</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>35661.8120122</value>
-          <error>213.253496934</error>
+          <value>6580.15894568</value>
+          <error>134.509053968</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>11176.0001381</value>
-          <error>0.0655847355261</error>
+          <value>21989.2184493</value>
+          <error>0.243039236465</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="148.732362536" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
+  <fit bgDegree="1" chi="97.4133298199" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>17553.0</cal>
-        <uncal>17553.0</uncal>
+        <cal>24377.5</cal>
+        <uncal>24377.5</uncal>
       </begin>
       <end>
-        <cal>17653.0</cal>
-        <uncal>17653.0</uncal>
+        <cal>24462.5</cal>
+        <uncal>24462.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>17602.8719464</cal>
-        <uncal>17602.8719464</uncal>
+        <cal>24420.4186784</cal>
+        <uncal>24420.4186784</uncal>
       </position>
     </peakMarker>
     <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>2301.14080438</value>
-        <error>9.96944795016</error>
+        <value>1141.24656256</value>
+        <error>280.443743013</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.129855667722</value>
-        <error>0.000566002954347</error>
+        <value>-0.0466468097073</value>
+        <error>0.0114750850739</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>31.1919684966</value>
-          <error>0.195213974261</error>
+          <value>32.8027290533</value>
+          <error>1.14033811228</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>25952.3861774</value>
-          <error>181.026687364</error>
+          <value>1669.84517418</value>
+          <error>64.8640063836</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>17602.8719464</value>
-          <error>0.0884763381427</error>
+          <value>24420.4186784</value>
+          <error>0.455664152476</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>31.1919684966</value>
-          <error>0.195213974261</error>
+          <value>32.8027290533</value>
+          <error>1.14033811228</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>25952.3861774</value>
-          <error>181.026687364</error>
+          <value>1669.84517418</value>
+          <error>64.8640063836</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>17602.8719464</value>
-          <error>0.0884763381427</error>
+          <value>24420.4186784</value>
+          <error>0.455664152476</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="109.223163742" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>2483.4562734</cal>
-        <uncal>2483.4562734</uncal>
-      </begin>
-      <end>
-        <cal>2499.44197912</cal>
-        <uncal>2499.44197912</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>2634.74955959</cal>
-        <uncal>2634.74955959</uncal>
-      </begin>
-      <end>
-        <cal>2661.0117904</cal>
-        <uncal>2661.0117904</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="131.332759903" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>2531.9843086</cal>
-        <uncal>2531.9843086</uncal>
+        <cal>1457.5</cal>
+        <uncal>1457.5</uncal>
       </begin>
       <end>
-        <cal>2613.62559133</cal>
-        <uncal>2613.62559133</uncal>
+        <cal>1582.5</cal>
+        <uncal>1582.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>2580.86797783</cal>
-        <uncal>2580.86797783</uncal>
+        <cal>1493.63072968</cal>
+        <uncal>1493.63072968</uncal>
       </position>
     </peakMarker>
-    <background chisquare="49.5472481604" deg="1">
+    <peakMarker>
+      <position>
+        <cal>1534.29503444</cal>
+        <uncal>1534.29503444</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>1275.12538767</value>
-        <error>102.601490206</error>
+        <value>944.122373081</value>
+        <error>272.490521337</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.348679408388</value>
-        <error>0.0395226007793</error>
+        <value>-0.0449735952055</value>
+        <error>0.174215200061</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>20.2143737941</value>
-          <error>0.709565339156</error>
+          <value>42.5489004993</value>
+          <error>11.2092077968</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>4883.4107884</value>
-          <error>149.892375792</error>
+          <value>1882.32589696</value>
+          <error>894.464109435</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>2580.86797783</value>
-          <error>0.305845182793</error>
+          <value>1493.63072968</value>
+          <error>8.93362897316</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>20.2143737941</value>
-          <error>0.709565339156</error>
+          <value>42.5489004993</value>
+          <error>11.2092077968</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>4883.4107884</value>
-          <error>149.892375792</error>
+          <value>1882.32589696</value>
+          <error>894.464109435</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>2580.86797783</value>
-          <error>0.305845182793</error>
+          <value>1493.63072968</value>
+          <error>8.93362897316</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>42.5489004993</value>
+          <error>11.2092077968</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>2184.21083234</value>
+          <error>921.586832447</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>1534.29503444</value>
+          <error>5.72948349636</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>42.5489004993</value>
+          <error>11.2092077968</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>2184.21083234</value>
+          <error>921.586832447</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>1534.29503444</value>
+          <error>5.72948349636</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="68.2535042075" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>2653.01893755</cal>
-        <uncal>2653.01893755</uncal>
-      </begin>
-      <end>
-        <cal>2661.0117904</cal>
-        <uncal>2661.0117904</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>2780.33366517</cal>
-        <uncal>2780.33366517</uncal>
-      </begin>
-      <end>
-        <cal>2788.32651803</cal>
-        <uncal>2788.32651803</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="76.1785088931" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>2701.54697274</cal>
-        <uncal>2701.54697274</uncal>
+        <cal>1813.5</cal>
+        <uncal>1813.5</uncal>
       </begin>
       <end>
-        <cal>2774.62448456</cal>
-        <uncal>2774.62448456</uncal>
+        <cal>1898.5</cal>
+        <uncal>1898.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>2736.90591194</cal>
-        <uncal>2736.90591194</uncal>
+        <cal>1856.22002257</cal>
+        <uncal>1856.22002257</uncal>
       </position>
     </peakMarker>
-    <background chisquare="11.6409535616" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>795.404212783</value>
-        <error>198.451848205</error>
+        <value>1913.64834701</value>
+        <error>240.397401734</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.166209765667</value>
-        <error>0.0728611850681</error>
+        <value>-0.616434501238</value>
+        <error>0.12945388831</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>22.5889005547</value>
-          <error>0.988976157051</error>
+          <value>19.5888592734</value>
+          <error>0.157098701815</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>3829.18987153</value>
-          <error>146.727768792</error>
+          <value>41959.4225461</value>
+          <error>346.904425058</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>2736.90591194</value>
-          <error>0.424098476925</error>
+          <value>1856.22002257</value>
+          <error>0.0651879732835</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>22.5889005547</value>
-          <error>0.988976157051</error>
+          <value>19.5888592734</value>
+          <error>0.157098701815</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>3829.18987153</value>
-          <error>146.727768792</error>
+          <value>41959.4225461</value>
+          <error>346.904425058</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>2736.90591194</value>
-          <error>0.424098476925</error>
+          <value>1856.22002257</value>
+          <error>0.0651879732835</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="105.734144406" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>3757.74538576</cal>
-        <uncal>3757.74538576</uncal>
-      </begin>
-      <end>
-        <cal>3716.63928536</cal>
-        <uncal>3716.63928536</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>3919.31519705</cal>
-        <uncal>3919.31519705</uncal>
-      </begin>
-      <end>
-        <cal>3973.55241285</cal>
-        <uncal>3973.55241285</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="139.002047321" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>3911.89326225</cal>
-        <uncal>3911.89326225</uncal>
+        <cal>1909.5</cal>
+        <uncal>1909.5</uncal>
       </begin>
       <end>
-        <cal>3792.00046942</cal>
-        <uncal>3792.00046942</uncal>
+        <cal>2051.5</cal>
+        <uncal>2051.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>3857.38027241</cal>
-        <uncal>3857.38027241</uncal>
+        <cal>1956.18642013</cal>
+        <uncal>1956.18642013</uncal>
       </position>
     </peakMarker>
     <peakMarker>
       <position>
-        <cal>3878.41276977</cal>
-        <uncal>3878.41276977</uncal>
+        <cal>2011.46980073</cal>
+        <uncal>2011.46980073</uncal>
       </position>
     </peakMarker>
-    <background chisquare="94.7501288075" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>117.00336662</value>
-        <error>59.5386685502</error>
+        <value>2324.49874882</value>
+        <error>163.406684638</error>
       </coeff>
       <coeff deg="1">
-        <value>0.0344115930049</value>
-        <error>0.0154405485675</error>
+        <value>-0.823978112449</value>
+        <error>0.0829866754419</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>18.7864218066</value>
-          <error>0.962862642823</error>
+          <value>35.2701583084</value>
+          <error>7.55753882752</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1820.46301141</value>
-          <error>109.49533781</error>
+          <value>1482.2934684</value>
+          <error>516.747232761</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>3857.38027241</value>
-          <error>0.742088756129</error>
+          <value>1956.18642013</value>
+          <error>3.28507157422</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>18.7864218066</value>
-          <error>0.962862642823</error>
+          <value>35.2701583084</value>
+          <error>7.55753882752</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1820.46301141</value>
-          <error>109.49533781</error>
+          <value>1482.2934684</value>
+          <error>516.747232761</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>3857.38027241</value>
-          <error>0.742088756129</error>
+          <value>1956.18642013</value>
+          <error>3.28507157422</error>
         </pos>
       </cal>
       <extras />
@@ -3095,1624 +868,2235 @@
     <peak>
       <uncal>
         <width status="equal">
-          <value>18.7864218066</value>
-          <error>0.962862642823</error>
+          <value>35.2701583084</value>
+          <error>7.55753882752</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>2091.60529902</value>
-          <error>115.391421343</error>
+          <value>1224.01971254</value>
+          <error>524.136368525</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>3878.41276977</value>
-          <error>0.625896128224</error>
+          <value>2011.46980073</value>
+          <error>3.94156538521</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>18.7864218066</value>
-          <error>0.962862642823</error>
+          <value>35.2701583084</value>
+          <error>7.55753882752</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>2091.60529902</value>
-          <error>115.391421343</error>
+          <value>1224.01971254</value>
+          <error>524.136368525</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>3878.41276977</value>
-          <error>0.625896128224</error>
+          <value>2011.46980073</value>
+          <error>3.94156538521</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="318.704729621" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>4389.41282828</cal>
-        <uncal>4389.41282828</uncal>
-      </begin>
-      <end>
-        <cal>4423.27711414</cal>
-        <uncal>4423.27711414</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>4928.41937812</cal>
-        <uncal>4928.41937812</uncal>
-      </begin>
-      <end>
-        <cal>4970.74973544</cal>
-        <uncal>4970.74973544</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="156.844408642" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>4457.14139999</cal>
-        <uncal>4457.14139999</uncal>
+        <cal>2369.5</cal>
+        <uncal>2369.5</uncal>
       </begin>
       <end>
-        <cal>4722.41163918</cal>
-        <uncal>4722.41163918</uncal>
+        <cal>2454.5</cal>
+        <uncal>2454.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>4534.3303404</cal>
-        <uncal>4534.3303404</uncal>
+        <cal>2412.37799418</cal>
+        <uncal>2412.37799418</uncal>
       </position>
     </peakMarker>
-    <peakMarker>
-      <position>
-        <cal>4603.19129167</cal>
-        <uncal>4603.19129167</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="76.5868720752" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>627.017897118</value>
-        <error>25.1925404725</error>
+        <value>1320.74605672</value>
+        <error>239.911175556</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.101431219047</value>
-        <error>0.00529098876096</error>
+        <value>-0.358303824356</value>
+        <error>0.0994315743245</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>21.0498422811</value>
-          <error>1.30464022568</error>
+          <value>18.4972628375</value>
+          <error>0.0872495393865</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1450.11621069</value>
-          <error>94.7848966442</error>
+          <value>68620.1982211</value>
+          <error>335.900180448</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>4534.3303404</value>
-          <error>0.73372467743</error>
+          <value>2412.37799418</value>
+          <error>0.0387988709962</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>21.0498422811</value>
-          <error>1.30464022568</error>
+          <value>18.4972628375</value>
+          <error>0.0872495393865</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1450.11621069</value>
-          <error>94.7848966442</error>
+          <value>68620.1982211</value>
+          <error>335.900180448</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
-        <pos status="free">
-          <value>4534.3303404</value>
-          <error>0.73372467743</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>21.0498422811</value>
-          <error>1.30464022568</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>923.498110289</value>
-          <error>81.1709679494</error>
-        </vol>
         <sw status="hold" />
-        <tr status="none" />
         <pos status="free">
-          <value>4603.19129167</value>
-          <error>0.953026759965</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>21.0498422811</value>
-          <error>1.30464022568</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>923.498110289</value>
-          <error>81.1709679494</error>
-        </vol>
-        <sw status="hold" />
-        <tr status="none" />
-        <pos status="free">
-          <value>4603.19129167</value>
-          <error>0.953026759965</error>
+          <value>2412.37799418</value>
+          <error>0.0387988709962</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="410.126402545" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>4389.41282828</cal>
-        <uncal>4389.41282828</uncal>
-      </begin>
-      <end>
-        <cal>4448.67532853</cal>
-        <uncal>4448.67532853</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>4959.46164015</cal>
-        <uncal>4959.46164015</uncal>
-      </begin>
-      <end>
-        <cal>5001.79199747</cal>
-        <uncal>5001.79199747</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="95.9471180956" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>4934.06342576</cal>
-        <uncal>4934.06342576</uncal>
+        <cal>2538.5</cal>
+        <uncal>2538.5</uncal>
       </begin>
       <end>
-        <cal>4643.39497219</cal>
-        <uncal>4643.39497219</uncal>
+        <cal>2623.5</cal>
+        <uncal>2623.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>4789.34706589</cal>
-        <uncal>4789.34706589</uncal>
+        <cal>2580.58062285</cal>
+        <uncal>2580.58062285</uncal>
       </position>
     </peakMarker>
-    <peakMarker>
-      <position>
-        <cal>4857.15305069</cal>
-        <uncal>4857.15305069</uncal>
-      </position>
-    </peakMarker>
-    <background chisquare="87.9438713685" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>604.437141248</value>
-        <error>20.3485946096</error>
+        <value>582.367010726</value>
+        <error>232.84169879</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.0969055146334</value>
-        <error>0.00431816033811</error>
+        <value>-0.078392278456</value>
+        <error>0.0901892837333</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>22.0626050563</value>
-          <error>0.858734705227</error>
+          <value>19.5222408138</value>
+          <error>0.804790757033</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1690.74991014</value>
-          <error>85.5178111453</error>
+          <value>4660.9482443</value>
+          <error>200.113116082</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>4789.34706589</value>
-          <error>0.574638226825</error>
+          <value>2580.58062285</value>
+          <error>0.317295545852</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>22.0626050563</value>
-          <error>0.858734705227</error>
+          <value>19.5222408138</value>
+          <error>0.804790757033</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1690.74991014</value>
-          <error>85.5178111453</error>
+          <value>4660.9482443</value>
+          <error>200.113116082</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>4789.34706589</value>
-          <error>0.574638226825</error>
-        </pos>
-      </cal>
-      <extras />
-    </peak>
-    <peak>
-      <uncal>
-        <width status="equal">
-          <value>22.0626050563</value>
-          <error>0.858734705227</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>2138.93722255</value>
-          <error>92.3017825436</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>4857.15305069</value>
-          <error>0.509085108973</error>
-        </pos>
-      </uncal>
-      <cal>
-        <width status="equal">
-          <value>22.0626050563</value>
-          <error>0.858734705227</error>
-        </width>
-        <tl status="none" />
-        <sh status="none" />
-        <vol status="free">
-          <value>2138.93722255</value>
-          <error>92.3017825436</error>
-        </vol>
-        <tr status="none" />
-        <sw status="hold" />
-        <pos status="free">
-          <value>4857.15305069</value>
-          <error>0.509085108973</error>
+          <value>2580.58062285</value>
+          <error>0.317295545852</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="140.293344375" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>4967.08395507</cal>
-        <uncal>4967.08395507</uncal>
-      </begin>
-      <end>
-        <cal>4977.06131598</cal>
-        <uncal>4977.06131598</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>5216.51797765</cal>
-        <uncal>5216.51797765</uncal>
-      </begin>
-      <end>
-        <cal>5251.43874081</cal>
-        <uncal>5251.43874081</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="78.9719751461" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>5004.9979265</cal>
-        <uncal>5004.9979265</uncal>
+        <cal>2694.5</cal>
+        <uncal>2694.5</uncal>
       </begin>
       <end>
-        <cal>5170.62211749</cal>
-        <uncal>5170.62211749</uncal>
+        <cal>2779.5</cal>
+        <uncal>2779.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>5091.43500578</cal>
-        <uncal>5091.43500578</uncal>
+        <cal>2737.17263505</cal>
+        <uncal>2737.17263505</uncal>
       </position>
     </peakMarker>
-    <background chisquare="40.6524040372" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>304.599236979</value>
-        <error>76.7566812551</error>
+        <value>1213.57696192</value>
+        <error>239.22724135</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.0372565874594</value>
-        <error>0.0148157429312</error>
+        <value>-0.318790780383</value>
+        <error>0.0873742884233</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>32.879152291</value>
-          <error>1.62923973452</error>
+          <value>22.4759434997</value>
+          <error>1.20350473925</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>2431.04368336</value>
-          <error>105.692292263</error>
+          <value>3801.10058194</value>
+          <error>219.284910184</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>5091.43500578</value>
-          <error>0.703700370131</error>
+          <value>2737.17263505</value>
+          <error>0.452470384555</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>32.879152291</value>
-          <error>1.62923973452</error>
+          <value>22.4759434997</value>
+          <error>1.20350473925</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>2431.04368336</value>
-          <error>105.692292263</error>
+          <value>3801.10058194</value>
+          <error>219.284910184</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>5091.43500578</value>
-          <error>0.703700370131</error>
+          <value>2737.17263505</value>
+          <error>0.452470384555</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="132.874935135" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>5857.06454762</cal>
-        <uncal>5857.06454762</uncal>
-      </begin>
-      <end>
-        <cal>5903.95814386</cal>
-        <uncal>5903.95814386</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>5629.58071903</cal>
-        <uncal>5629.58071903</uncal>
-      </begin>
-      <end>
-        <cal>5569.71655361</cal>
-        <uncal>5569.71655361</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="330.837480068" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>5740.32942506</cal>
-        <uncal>5740.32942506</uncal>
+        <cal>2899.5</cal>
+        <uncal>2899.5</uncal>
       </begin>
       <end>
-        <cal>5838.1075619</cal>
-        <uncal>5838.1075619</uncal>
+        <cal>2984.5</cal>
+        <uncal>2984.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>5784.21659197</cal>
-        <uncal>5784.21659197</uncal>
+        <cal>2942.64411949</cal>
+        <uncal>2942.64411949</uncal>
       </position>
     </peakMarker>
-    <background chisquare="114.07280731" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>224.809303915</value>
-        <error>39.0468612679</error>
+        <value>-770.2949712</value>
+        <error>261.401485071</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.0221804746827</value>
-        <error>0.00681722201947</error>
+        <value>0.372984748927</value>
+        <error>0.0888961901138</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>22.416789641</value>
-          <error>1.12207175375</error>
+          <value>20.756404991</value>
+          <error>0.055596089389</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1743.84579361</value>
-          <error>81.1934552409</error>
+          <value>148248.148061</value>
+          <error>440.921069907</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>5784.21659197</value>
-          <error>0.520307394277</error>
+          <value>2942.64411949</value>
+          <error>0.026702386119</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>22.416789641</value>
-          <error>1.12207175375</error>
+          <value>20.756404991</value>
+          <error>0.055596089389</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1743.84579361</value>
-          <error>81.1934552409</error>
+          <value>148248.148061</value>
+          <error>440.921069907</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>5784.21659197</value>
-          <error>0.520307394277</error>
+          <value>2942.64411949</value>
+          <error>0.026702386119</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="165.6660234" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>6428.76732736</cal>
-        <uncal>6428.76732736</uncal>
-      </begin>
-      <end>
-        <cal>6453.71072962</cal>
-        <uncal>6453.71072962</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>6754.0292928</cal>
-        <uncal>6754.0292928</uncal>
-      </begin>
-      <end>
-        <cal>6804.91383341</cal>
-        <uncal>6804.91383341</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="168.104958902" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>6543.50697775</cal>
-        <uncal>6543.50697775</uncal>
+        <cal>3465.5</cal>
+        <uncal>3465.5</uncal>
       </begin>
       <end>
-        <cal>6712.12437701</cal>
-        <uncal>6712.12437701</uncal>
+        <cal>3550.5</cal>
+        <uncal>3550.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>6636.46405944</cal>
-        <uncal>6636.46405944</uncal>
+        <cal>3508.25009075</cal>
+        <uncal>3508.25009075</uncal>
       </position>
     </peakMarker>
-    <background chisquare="72.8054415275" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>104.223681327</value>
-        <error>41.9450571819</error>
+        <value>927.384091916</value>
+        <error>307.521935585</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.00426316308213</value>
-        <error>0.00628859543439</error>
+        <value>-0.182032950035</value>
+        <error>0.0876408546374</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>22.1092977021</value>
-          <error>0.412937913452</error>
+          <value>22.1175036075</value>
+          <error>0.042936550545</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>5465.29186114</value>
-          <error>97.2630651962</error>
+          <value>245723.312287</value>
+          <error>546.00279561</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>6636.46405944</value>
-          <error>0.191258900754</error>
+          <value>3508.25009075</value>
+          <error>0.0212081485382</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>22.1092977021</value>
-          <error>0.412937913452</error>
+          <value>22.1175036075</value>
+          <error>0.042936550545</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>5465.29186114</value>
-          <error>97.2630651962</error>
+          <value>245723.312287</value>
+          <error>546.00279561</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>6636.46405944</value>
-          <error>0.191258900754</error>
+          <value>3508.25009075</value>
+          <error>0.0212081485382</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="199.68091631" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>6856.7961101</cal>
-        <uncal>6856.7961101</uncal>
-      </begin>
-      <end>
-        <cal>6884.73272063</cal>
-        <uncal>6884.73272063</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>7103.23692441</cal>
-        <uncal>7103.23692441</uncal>
-      </begin>
-      <end>
-        <cal>7118.20296576</cal>
-        <uncal>7118.20296576</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="100.015538106" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>6921.64895597</cal>
-        <uncal>6921.64895597</uncal>
+        <cal>3826.5</cal>
+        <uncal>3826.5</uncal>
       </begin>
       <end>
-        <cal>7073.3048417</cal>
-        <uncal>7073.3048417</uncal>
+        <cal>3911.5</cal>
+        <uncal>3911.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>7011.72088946</cal>
-        <uncal>7011.72088946</uncal>
+        <cal>3868.601562</cal>
+        <uncal>3868.601562</uncal>
       </position>
     </peakMarker>
-    <background chisquare="36.5133315843" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>139.964557138</value>
-        <error>80.3356928219</error>
+        <value>27.9306539768</value>
+        <error>433.06261294</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.00917602482791</value>
-        <error>0.0115475448025</error>
+        <value>0.0531175353616</value>
+        <error>0.111737823704</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>23.1956351477</value>
-          <error>1.14234037088</error>
+          <value>41.1693224448</value>
+          <error>2.9729616355</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1746.51756491</value>
-          <error>76.3562492401</error>
+          <value>5323.62374278</value>
+          <error>606.89320848</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>7011.72088946</value>
-          <error>0.508546235951</error>
+          <value>3868.601562</value>
+          <error>0.997036192772</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>23.1956351477</value>
-          <error>1.14234037088</error>
+          <value>41.1693224448</value>
+          <error>2.9729616355</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1746.51756491</value>
-          <error>76.3562492401</error>
+          <value>5323.62374278</value>
+          <error>606.89320848</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>7011.72088946</value>
-          <error>0.508546235951</error>
+          <value>3868.601562</value>
+          <error>0.997036192772</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="98.3930667501" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>7083.2822026</cal>
-        <uncal>7083.2822026</uncal>
-      </begin>
-      <end>
-        <cal>7110.22107704</cal>
-        <uncal>7110.22107704</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>7241.92224096</cal>
-        <uncal>7241.92224096</uncal>
-      </begin>
-      <end>
-        <cal>7317.75018382</cal>
-        <uncal>7317.75018382</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="62.8860642882" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>7135.1644793</cal>
-        <uncal>7135.1644793</uncal>
+        <cal>4005.5</cal>
+        <uncal>4005.5</uncal>
       </begin>
       <end>
-        <cal>7217.97657479</cal>
-        <uncal>7217.97657479</uncal>
+        <cal>4090.5</cal>
+        <uncal>4090.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>7178.64127928</cal>
-        <uncal>7178.64127928</uncal>
+        <cal>4043.92258146</cal>
+        <uncal>4043.92258146</uncal>
       </position>
     </peakMarker>
-    <background chisquare="144.020558212" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>210.357982469</value>
-        <error>75.6992937739</error>
+        <value>-613.849295445</value>
+        <error>312.786514229</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.0187053594597</value>
-        <error>0.0104646962046</error>
+        <value>0.213759194699</value>
+        <error>0.0771542096249</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>21.6562725353</value>
-          <error>1.31487767513</error>
+          <value>22.9593210009</value>
+          <error>4.25855262736</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1183.82001877</value>
-          <error>69.2016427028</error>
+          <value>995.079811455</value>
+          <error>202.396579037</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>7178.64127928</value>
-          <error>0.639073290882</error>
+          <value>4043.92258146</value>
+          <error>1.44094209667</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>21.6562725353</value>
-          <error>1.31487767513</error>
+          <value>22.9593210009</value>
+          <error>4.25855262736</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1183.82001877</value>
-          <error>69.2016427028</error>
+          <value>995.079811455</value>
+          <error>202.396579037</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>7178.64127928</value>
-          <error>0.639073290882</error>
+          <value>4043.92258146</value>
+          <error>1.44094209667</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="130.422153517" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>7737.79707784</cal>
-        <uncal>7737.79707784</uncal>
-      </begin>
-      <end>
-        <cal>7749.76991092</cal>
-        <uncal>7749.76991092</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>7932.35561545</cal>
-        <uncal>7932.35561545</uncal>
-      </begin>
-      <end>
-        <cal>7951.31260116</cal>
-        <uncal>7951.31260116</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="169.579426832" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>7773.71557709</cal>
-        <uncal>7773.71557709</uncal>
+        <cal>4124.5</cal>
+        <uncal>4124.5</uncal>
       </begin>
       <end>
-        <cal>7891.44843574</cal>
-        <uncal>7891.44843574</uncal>
+        <cal>4291.5</cal>
+        <uncal>4291.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>7837.53699742</cal>
-        <uncal>7837.53699742</uncal>
+        <cal>4134.24568674</cal>
+        <uncal>4134.24568674</uncal>
       </position>
     </peakMarker>
-    <background chisquare="21.224761277" deg="1">
+    <peakMarker>
+      <position>
+        <cal>4199.97642703</cal>
+        <uncal>4199.97642703</uncal>
+      </position>
+    </peakMarker>
+    <peakMarker>
+      <position>
+        <cal>4263.79783836</cal>
+        <uncal>4263.79783836</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>-4.91555857644</value>
-        <error>124.559187697</error>
+        <value>180.666587632</value>
+        <error>35.7984507646</error>
       </coeff>
       <coeff deg="1">
-        <value>0.00990139264455</value>
-        <error>0.0158381885932</error>
+        <value>-0.00344021591425</value>
+        <error>0.0100218000341</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>24.817234569</value>
-          <error>0.657644071098</error>
+          <value>73.6001522717</value>
+          <error>23.4942998073</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>3423.88505247</value>
-          <error>87.0767645135</error>
+          <value>6751.55574216</value>
+          <error>6842.08066691</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>7837.53699742</value>
-          <error>0.311544880397</error>
+          <value>4134.24568674</value>
+          <error>12.7780058516</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>24.817234569</value>
-          <error>0.657644071098</error>
+          <value>73.6001522717</value>
+          <error>23.4942998073</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>3423.88505247</value>
-          <error>87.0767645135</error>
+          <value>6751.55574216</value>
+          <error>6842.08066691</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>7837.53699742</value>
-          <error>0.311544880397</error>
+          <value>4134.24568674</value>
+          <error>12.7780058516</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>73.6001522717</value>
+          <error>23.4942998073</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>5970.45731806</value>
+          <error>6022.22834041</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>4199.97642703</value>
+          <error>6.95803413929</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>73.6001522717</value>
+          <error>23.4942998073</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>5970.45731806</value>
+          <error>6022.22834041</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>4199.97642703</value>
+          <error>6.95803413929</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>73.6001522717</value>
+          <error>23.4942998073</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>5729.63930936</value>
+          <error>6308.63721972</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>4263.79783836</value>
+          <error>15.0333113052</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>73.6001522717</value>
+          <error>23.4942998073</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>5729.63930936</value>
+          <error>6308.63721972</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>4263.79783836</value>
+          <error>15.0333113052</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="144.799629429" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>7901.42579665</cal>
-        <uncal>7901.42579665</uncal>
-      </begin>
-      <end>
-        <cal>7927.36693499</cal>
-        <uncal>7927.36693499</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>8118.93226433</cal>
-        <uncal>8118.93226433</uncal>
-      </begin>
-      <end>
-        <cal>8154.85076358</cal>
-        <uncal>8154.85076358</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="64.8495404547" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>8093.98886207</cal>
-        <uncal>8093.98886207</uncal>
+        <cal>4492.5</cal>
+        <uncal>4492.5</uncal>
       </begin>
       <end>
-        <cal>7965.28090643</cal>
-        <uncal>7965.28090643</uncal>
+        <cal>4577.5</cal>
+        <uncal>4577.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>8039.96557588</cal>
-        <uncal>8039.96557588</uncal>
+        <cal>4534.34245568</cal>
+        <uncal>4534.34245568</uncal>
       </position>
     </peakMarker>
-    <background chisquare="69.4004178269" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>34.1898161627</value>
-        <error>78.3284427203</error>
+        <value>539.728010093</value>
+        <error>278.254090422</error>
       </coeff>
       <coeff deg="1">
-        <value>0.004585667237</value>
-        <error>0.00973825605552</error>
+        <value>-0.0822407135947</value>
+        <error>0.0613466680965</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>26.4889336397</value>
-          <error>0.632056572689</error>
+          <value>22.7209599626</value>
+          <error>2.00531299889</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>3990.49855673</value>
-          <error>91.4222349967</error>
+          <value>1514.02491678</value>
+          <error>150.502167518</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>8039.96557588</value>
-          <error>0.298460055559</error>
+          <value>4534.34245568</value>
+          <error>0.803762333244</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>26.4889336397</value>
-          <error>0.632056572689</error>
+          <value>22.7209599626</value>
+          <error>2.00531299889</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>3990.49855673</value>
-          <error>91.4222349967</error>
+          <value>1514.02491678</value>
+          <error>150.502167518</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>8039.96557588</value>
-          <error>0.298460055559</error>
+          <value>4534.34245568</value>
+          <error>0.803762333244</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="144.799934346" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>8221.69908163</cal>
-        <uncal>8221.69908163</uncal>
-      </begin>
-      <end>
-        <cal>8254.62437261</cal>
-        <uncal>8254.62437261</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>8500.06745083</cal>
-        <uncal>8500.06745083</uncal>
-      </begin>
-      <end>
-        <cal>8555.94067188</cal>
-        <uncal>8555.94067188</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="185.085269954" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>8433.21913278</cal>
-        <uncal>8433.21913278</uncal>
+        <cal>4745.5</cal>
+        <uncal>4745.5</uncal>
       </begin>
       <end>
-        <cal>8305.50891322</cal>
-        <uncal>8305.50891322</uncal>
+        <cal>4901.5</cal>
+        <uncal>4901.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>8368.76726867</cal>
-        <uncal>8368.76726867</uncal>
+        <cal>4789.39713182</cal>
+        <uncal>4789.39713182</uncal>
       </position>
     </peakMarker>
-    <background chisquare="71.8574815564" deg="1">
+    <peakMarker>
+      <position>
+        <cal>4857.24511679</cal>
+        <uncal>4857.24511679</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>302.691395145</value>
-        <error>56.8837589375</error>
+        <value>712.718961116</value>
+        <error>120.688911488</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.0266660281421</value>
-        <error>0.00675013520529</error>
+        <value>-0.11952270435</value>
+        <error>0.0250211078367</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>23.40348351</value>
-          <error>1.04264698327</error>
+          <value>22.4619176466</value>
+          <error>1.11428717477</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1690.89347089</value>
-          <error>75.558510613</error>
+          <value>1703.29776925</value>
+          <error>118.463928783</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>8368.76726867</value>
-          <error>0.531260720698</error>
+          <value>4789.39713182</value>
+          <error>0.584502537634</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>23.40348351</value>
-          <error>1.04264698327</error>
+          <value>22.4619176466</value>
+          <error>1.11428717477</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1690.89347089</value>
-          <error>75.558510613</error>
+          <value>1703.29776925</value>
+          <error>118.463928783</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>8368.76726867</value>
-          <error>0.531260720698</error>
+          <value>4789.39713182</value>
+          <error>0.584502537634</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>22.4619176466</value>
+          <error>1.11428717477</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>2213.23696698</value>
+          <error>134.772838947</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>4857.24511679</value>
+          <error>0.508680502121</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>22.4619176466</value>
+          <error>1.11428717477</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>2213.23696698</value>
+          <error>134.772838947</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>4857.24511679</value>
+          <error>0.508680502121</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="135.136312811" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>9168.55063133</cal>
-        <uncal>9168.55063133</uncal>
-      </begin>
-      <end>
-        <cal>9121.65703508</cal>
-        <uncal>9121.65703508</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>9428.9597509</cal>
-        <uncal>9428.9597509</uncal>
-      </begin>
-      <end>
-        <cal>9481.83976368</cal>
-        <uncal>9481.83976368</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="54.4769000518" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>9372.08879375</cal>
-        <uncal>9372.08879375</uncal>
+        <cal>5048.5</cal>
+        <uncal>5048.5</uncal>
       </begin>
       <end>
-        <cal>9225.42158847</cal>
-        <uncal>9225.42158847</uncal>
+        <cal>5133.5</cal>
+        <uncal>5133.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>9316.0890643</cal>
-        <uncal>9316.0890643</uncal>
+        <cal>5090.66174551</cal>
+        <uncal>5090.66174551</uncal>
       </position>
     </peakMarker>
-    <background chisquare="121.605112438" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>316.549943187</value>
-        <error>50.2794831296</error>
+        <value>-154.72563058</value>
+        <error>300.385373563</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.0265311026942</value>
-        <error>0.00539497189107</error>
+        <value>0.0534432791799</value>
+        <error>0.0589942717938</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>25.4197404689</value>
-          <error>0.345047849526</error>
+          <value>31.1680204618</value>
+          <error>2.3888556183</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>8591.63313609</value>
-          <error>114.21322276</error>
+          <value>2253.40652692</value>
+          <error>217.149038714</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>9316.0890643</value>
-          <error>0.162702192227</error>
+          <value>5090.66174551</value>
+          <error>0.841976645428</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>25.4197404689</value>
-          <error>0.345047849526</error>
+          <value>31.1680204618</value>
+          <error>2.3888556183</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>8591.63313609</value>
-          <error>114.21322276</error>
+          <value>2253.40652692</value>
+          <error>217.149038714</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>9316.0890643</value>
-          <error>0.162702192227</error>
+          <value>5090.66174551</value>
+          <error>0.841976645428</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="202.244963636" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>9474.85561105</cal>
-        <uncal>9474.85561105</uncal>
-      </begin>
-      <end>
-        <cal>9440.93258398</cal>
-        <uncal>9440.93258398</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>9767.19228551</cal>
-        <uncal>9767.19228551</uncal>
-      </begin>
-      <end>
-        <cal>9852.99758927</cal>
-        <uncal>9852.99758927</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="100.925294397" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>9522.74694338</cal>
-        <uncal>9522.74694338</uncal>
+        <cal>5741.5</cal>
+        <uncal>5741.5</uncal>
       </begin>
       <end>
-        <cal>9723.29189753</cal>
-        <uncal>9723.29189753</uncal>
+        <cal>5826.5</cal>
+        <uncal>5826.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>9615.41582927</cal>
-        <uncal>9615.41582927</uncal>
+        <cal>5784.23987756</cal>
+        <uncal>5784.23987756</uncal>
       </position>
     </peakMarker>
-    <background chisquare="112.562233445" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>135.239800568</value>
-        <error>44.2042654101</error>
+        <value>266.863775641</value>
+        <error>270.606569257</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.00749269606847</value>
-        <error>0.00455074584334</error>
+        <value>-0.0296960172998</value>
+        <error>0.0467834250424</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>27.0349745127</value>
-          <error>2.37295609756</error>
+          <value>23.0451780777</value>
+          <error>1.3809396836</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>945.718932737</value>
-          <error>70.4583149304</error>
+          <value>1816.42983996</value>
+          <error>121.21588346</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>9615.41582927</value>
-          <error>0.977452183276</error>
+          <value>5784.23987756</value>
+          <error>0.552970043675</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>27.0349745127</value>
-          <error>2.37295609756</error>
+          <value>23.0451780777</value>
+          <error>1.3809396836</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>945.718932737</value>
-          <error>70.4583149304</error>
+          <value>1816.42983996</value>
+          <error>121.21588346</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>9615.41582927</value>
-          <error>0.977452183276</error>
+          <value>5784.23987756</value>
+          <error>0.552970043675</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="159.450615672" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>10324.92676</cal>
-        <uncal>10324.92676</uncal>
-      </begin>
-      <end>
-        <cal>10364.8362036</cal>
-        <uncal>10364.8362036</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>10571.3675743</cal>
-        <uncal>10571.3675743</uncal>
-      </begin>
-      <end>
-        <cal>10598.3064487</cal>
-        <uncal>10598.3064487</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="164.503084695" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>10426.6958412</cal>
-        <uncal>10426.6958412</uncal>
+        <cal>6033.5</cal>
+        <uncal>6033.5</uncal>
       </begin>
       <end>
-        <cal>10550.4151164</cal>
-        <uncal>10550.4151164</uncal>
+        <cal>6118.5</cal>
+        <uncal>6118.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>10493.7073349</cal>
-        <uncal>10493.7073349</uncal>
+        <cal>6075.72766506</cal>
+        <uncal>6075.72766506</uncal>
       </position>
     </peakMarker>
-    <background chisquare="95.1305426307" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>-53.7335940182</value>
-        <error>76.6476980179</error>
+        <value>240.523537599</value>
+        <error>356.891818765</error>
       </coeff>
       <coeff deg="1">
-        <value>0.00994034986469</value>
-        <error>0.00734220532742</error>
+        <value>-0.0205057557013</value>
+        <error>0.058718574069</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>25.4624619783</value>
-          <error>2.14748955462</error>
+          <value>23.3794361631</value>
+          <error>0.0515100018755</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>809.007491267</value>
-          <error>61.1651471859</error>
+          <value>181123.770535</value>
+          <error>457.294976804</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>10493.7073349</value>
-          <error>0.96344843902</error>
+          <value>6075.72766506</value>
+          <error>0.0253852376204</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>25.4624619783</value>
-          <error>2.14748955462</error>
+          <value>23.3794361631</value>
+          <error>0.0515100018755</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>809.007491267</value>
-          <error>61.1651471859</error>
+          <value>181123.770535</value>
+          <error>457.294976804</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>10493.7073349</value>
-          <error>0.96344843902</error>
+          <value>6075.72766506</value>
+          <error>0.0253852376204</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="125.15490674" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>10581.3449352</cal>
-        <uncal>10581.3449352</uncal>
-      </begin>
-      <end>
-        <cal>10602.2973931</cal>
-        <uncal>10602.2973931</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>10762.9329036</cal>
-        <uncal>10762.9329036</uncal>
-      </begin>
-      <end>
-        <cal>10805.8355555</cal>
-        <uncal>10805.8355555</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="99.6773519893" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>10621.2543788</cal>
-        <uncal>10621.2543788</uncal>
+        <cal>6594.5</cal>
+        <uncal>6594.5</uncal>
       </begin>
       <end>
-        <cal>10739.9849736</cal>
-        <uncal>10739.9849736</uncal>
+        <cal>6679.5</cal>
+        <uncal>6679.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>10672.5967659</cal>
-        <uncal>10672.5967659</uncal>
+        <cal>6636.52932071</cal>
+        <uncal>6636.52932071</uncal>
       </position>
     </peakMarker>
-    <background chisquare="84.4401134845" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>194.079191921</value>
-        <error>104.923800566</error>
+        <value>493.168766887</value>
+        <error>281.473501407</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.0134920780425</value>
-        <error>0.00978440236422</error>
+        <value>-0.0624367945128</value>
+        <error>0.042398978086</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>31.2539029338</value>
-          <error>3.62785996827</error>
+          <value>21.6358159101</value>
+          <error>0.476648064357</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>681.04752946</value>
-          <error>66.2431977977</error>
+          <value>5316.40318664</value>
+          <error>124.148938838</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>10672.5967659</value>
-          <error>1.47798306219</error>
+          <value>6636.52932071</value>
+          <error>0.201380548732</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>31.2539029338</value>
-          <error>3.62785996827</error>
+          <value>21.6358159101</value>
+          <error>0.476648064357</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>681.04752946</value>
-          <error>66.2431977977</error>
+          <value>5316.40318664</value>
+          <error>124.148938838</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>10672.5967659</value>
-          <error>1.47798306219</error>
+          <value>6636.52932071</value>
+          <error>0.201380548732</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="123.090648293" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>11419.9277484</cal>
-        <uncal>11419.9277484</uncal>
-      </begin>
-      <end>
-        <cal>11451.2106755</cal>
-        <uncal>11451.2106755</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>11607.0764874</cal>
-        <uncal>11607.0764874</uncal>
-      </begin>
-      <end>
-        <cal>11640.5547076</cal>
-        <uncal>11640.5547076</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="86.8793358326" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>11479.7494861</cal>
-        <uncal>11479.7494861</uncal>
+        <cal>6969.5</cal>
+        <uncal>6969.5</uncal>
       </begin>
       <end>
-        <cal>11577.4400302</cal>
-        <uncal>11577.4400302</uncal>
+        <cal>7054.5</cal>
+        <uncal>7054.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>11524.61044</cal>
-        <uncal>11524.61044</uncal>
+        <cal>7011.14716459</cal>
+        <uncal>7011.14716459</uncal>
       </position>
     </peakMarker>
-    <background chisquare="37.2699881566" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>154.463300688</value>
-        <error>102.307861694</error>
+        <value>-687.619624237</value>
+        <error>293.517597443</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.00940509831903</value>
-        <error>0.00887055051483</error>
+        <value>0.109103576967</value>
+        <error>0.0418649147951</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>25.6931528583</value>
-          <error>0.549513566845</error>
+          <value>22.18534107</value>
+          <error>1.31697848553</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>4024.83763433</value>
-          <error>82.6746349389</error>
+          <value>1652.88695633</value>
+          <error>106.722741112</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>11524.61044</value>
-          <error>0.255376091177</error>
+          <value>7011.14716459</value>
+          <error>0.530783544816</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>25.6931528583</value>
-          <error>0.549513566845</error>
+          <value>22.18534107</value>
+          <error>1.31697848553</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>4024.83763433</value>
-          <error>82.6746349389</error>
+          <value>1652.88695633</value>
+          <error>106.722741112</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>11524.61044</value>
-          <error>0.255376091177</error>
+          <value>7011.14716459</value>
+          <error>0.530783544816</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="83.5622628872" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>11911.9775979</cal>
-        <uncal>11911.9775979</uncal>
-      </begin>
-      <end>
-        <cal>11870.0653181</cal>
-        <uncal>11870.0653181</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>12115.3297698</cal>
-        <uncal>12115.3297698</uncal>
-      </begin>
-      <end>
-        <cal>12140.1666763</cal>
-        <uncal>12140.1666763</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="97.1660183947" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>12002.0113839</cal>
-        <uncal>12002.0113839</uncal>
+        <cal>7136.5</cal>
+        <uncal>7136.5</uncal>
       </begin>
       <end>
-        <cal>12093.5974766</cal>
-        <uncal>12093.5974766</uncal>
+        <cal>7221.5</cal>
+        <uncal>7221.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>12046.8229491</cal>
-        <uncal>12046.8229491</uncal>
+        <cal>7178.23557072</cal>
+        <uncal>7178.23557072</uncal>
       </position>
     </peakMarker>
-    <background chisquare="82.9962024072" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>240.114783913</value>
-        <error>78.3251754293</error>
+        <value>-345.244782262</value>
+        <error>295.998850648</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.0168395724218</value>
-        <error>0.00653400451076</error>
+        <value>0.0585157991945</value>
+        <error>0.0412294607113</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>30.6445666516</value>
-          <error>1.92025172059</error>
+          <value>22.3584986623</value>
+          <error>1.58785726391</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1174.39725266</value>
-          <error>62.5214081568</error>
+          <value>1245.43315083</value>
+          <error>100.984033331</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>12046.8229491</value>
-          <error>0.79080092685</error>
+          <value>7178.23557072</value>
+          <error>0.672143708813</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>30.6445666516</value>
-          <error>1.92025172059</error>
+          <value>22.3584986623</value>
+          <error>1.58785726391</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>1174.39725266</value>
-          <error>62.5214081568</error>
+          <value>1245.43315083</value>
+          <error>100.984033331</error>
         </vol>
         <tr status="none" />
         <sw status="hold" />
         <pos status="free">
-          <value>12046.8229491</value>
-          <error>0.79080092685</error>
+          <value>7178.23557072</value>
+          <error>0.672143708813</error>
         </pos>
       </cal>
       <extras />
     </peak>
   </fit>
-  <fit bgDegree="1" chi="154.921853358" peakModel="theuerkauf">
-    <spectrum calibration="" name="B0.spc" />
-    <bgMarker>
-      <begin>
-        <cal>12214.6773958</cal>
-        <uncal>12214.6773958</uncal>
-      </begin>
-      <end>
-        <cal>12245.7235289</cal>
-        <uncal>12245.7235289</uncal>
-      </end>
-    </bgMarker>
-    <bgMarker>
-      <begin>
-        <cal>12419.5818744</cal>
-        <uncal>12419.5818744</uncal>
-      </begin>
-      <end>
-        <cal>12450.6280075</cal>
-        <uncal>12450.6280075</uncal>
-      </end>
-    </bgMarker>
+  <fit bgDegree="1" chi="85.2893659018" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
     <regionMarker>
       <begin>
-        <cal>12405.6111145</cal>
-        <uncal>12405.6111145</uncal>
+        <cal>7619.5</cal>
+        <uncal>7619.5</uncal>
       </begin>
       <end>
-        <cal>12248.8281422</cal>
-        <uncal>12248.8281422</uncal>
+        <cal>7704.5</cal>
+        <uncal>7704.5</uncal>
       </end>
     </regionMarker>
     <peakMarker>
       <position>
-        <cal>12351.3538938</cal>
-        <uncal>12351.3538938</uncal>
+        <cal>7662.22015444</cal>
+        <uncal>7662.22015444</uncal>
       </position>
     </peakMarker>
-    <background chisquare="55.8509306621" deg="1">
+    <background chisquare="None" deg="1">
       <coeff deg="0">
-        <value>268.298334938</value>
-        <error>95.4688103191</error>
+        <value>806.885951604</value>
+        <error>344.746412646</error>
       </coeff>
       <coeff deg="1">
-        <value>-0.0185928182115</value>
-        <error>0.00773782817838</error>
+        <value>-0.0950783858254</value>
+        <error>0.0449876758796</error>
       </coeff>
     </background>
     <peak>
       <uncal>
         <width status="equal">
-          <value>27.5374742238</value>
-          <error>0.246110792522</error>
+          <value>24.5778726983</value>
+          <error>0.267393404516</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>12975.7474422</value>
-          <error>124.993158781</error>
+          <value>15703.8367114</value>
+          <error>178.30075709</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>12351.3538938</value>
-          <error>0.123172172543</error>
+          <value>7662.22015444</value>
+          <error>0.11143857724</error>
         </pos>
       </uncal>
       <cal>
         <width status="equal">
-          <value>27.5374742238</value>
-          <error>0.246110792522</error>
+          <value>24.5778726983</value>
+          <error>0.267393404516</error>
         </width>
         <tl status="none" />
         <sh status="none" />
         <vol status="free">
-          <value>12975.7474422</value>
-          <error>124.993158781</error>
+          <value>15703.8367114</value>
+          <error>178.30075709</error>
         </vol>
-        <sw status="hold" />
         <tr status="none" />
+        <sw status="hold" />
         <pos status="free">
-          <value>12351.3538938</value>
-          <error>0.123172172543</error>
+          <value>7662.22015444</value>
+          <error>0.11143857724</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+  </fit>
+  <fit bgDegree="1" chi="97.0208419833" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
+    <regionMarker>
+      <begin>
+        <cal>7795.5</cal>
+        <uncal>7795.5</uncal>
+      </begin>
+      <end>
+        <cal>7880.5</cal>
+        <uncal>7880.5</uncal>
+      </end>
+    </regionMarker>
+    <peakMarker>
+      <position>
+        <cal>7837.60293184</cal>
+        <uncal>7837.60293184</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
+      <coeff deg="0">
+        <value>132.538857409</value>
+        <error>329.755711223</error>
+      </coeff>
+      <coeff deg="1">
+        <value>-0.0078873153619</value>
+        <error>0.042067163716</error>
+      </coeff>
+    </background>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>25.4255978083</value>
+          <error>0.847442040789</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>3538.23674866</value>
+          <error>131.257172962</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>7837.60293184</value>
+          <error>0.337739551595</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>25.4255978083</value>
+          <error>0.847442040789</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>3538.23674866</value>
+          <error>131.257172962</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>7837.60293184</value>
+          <error>0.337739551595</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+  </fit>
+  <fit bgDegree="1" chi="89.5373357295" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
+    <regionMarker>
+      <begin>
+        <cal>7997.5</cal>
+        <uncal>7997.5</uncal>
+      </begin>
+      <end>
+        <cal>8082.5</cal>
+        <uncal>8082.5</uncal>
+      </end>
+    </regionMarker>
+    <peakMarker>
+      <position>
+        <cal>8040.00949237</cal>
+        <uncal>8040.00949237</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
+      <coeff deg="0">
+        <value>143.862200495</value>
+        <error>346.777922921</error>
+      </coeff>
+      <coeff deg="1">
+        <value>-0.00903540744193</value>
+        <error>0.0431312896841</error>
+      </coeff>
+    </background>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>26.4398612387</value>
+          <error>0.813030795878</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>3980.58141395</value>
+          <error>139.522937518</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>8040.00949237</value>
+          <error>0.329051255834</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>26.4398612387</value>
+          <error>0.813030795878</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>3980.58141395</value>
+          <error>139.522937518</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>8040.00949237</value>
+          <error>0.329051255834</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+  </fit>
+  <fit bgDegree="1" chi="83.6945368777" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
+    <regionMarker>
+      <begin>
+        <cal>8326.5</cal>
+        <uncal>8326.5</uncal>
+      </begin>
+      <end>
+        <cal>8411.5</cal>
+        <uncal>8411.5</uncal>
+      </end>
+    </regionMarker>
+    <peakMarker>
+      <position>
+        <cal>8368.37578563</cal>
+        <uncal>8368.37578563</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
+      <coeff deg="0">
+        <value>-378.184469368</value>
+        <error>360.863996516</error>
+      </coeff>
+      <coeff deg="1">
+        <value>0.0538748728885</value>
+        <error>0.0431161996277</error>
+      </coeff>
+    </background>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>26.642886535</value>
+          <error>1.46697010823</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>2069.64932742</value>
+          <error>131.830199648</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>8368.37578563</value>
+          <error>0.572458219759</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>26.642886535</value>
+          <error>1.46697010823</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>2069.64932742</value>
+          <error>131.830199648</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>8368.37578563</value>
+          <error>0.572458219759</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+  </fit>
+  <fit bgDegree="1" chi="70.4466492801" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
+    <regionMarker>
+      <begin>
+        <cal>9273.5</cal>
+        <uncal>9273.5</uncal>
+      </begin>
+      <end>
+        <cal>9358.5</cal>
+        <uncal>9358.5</uncal>
+      </end>
+    </regionMarker>
+    <peakMarker>
+      <position>
+        <cal>9316.1097122</cal>
+        <uncal>9316.1097122</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
+      <coeff deg="0">
+        <value>455.591276115</value>
+        <error>402.679637548</error>
+      </coeff>
+      <coeff deg="1">
+        <value>-0.0410281451765</value>
+        <error>0.0432223783838</error>
+      </coeff>
+    </background>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>24.8175679246</value>
+          <error>0.419313578457</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>8351.29962729</value>
+          <error>150.984826965</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>9316.1097122</value>
+          <error>0.172308364281</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>24.8175679246</value>
+          <error>0.419313578457</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>8351.29962729</value>
+          <error>150.984826965</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>9316.1097122</value>
+          <error>0.172308364281</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+  </fit>
+  <fit bgDegree="1" chi="73.0618345448" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
+    <regionMarker>
+      <begin>
+        <cal>9572.5</cal>
+        <uncal>9572.5</uncal>
+      </begin>
+      <end>
+        <cal>9657.5</cal>
+        <uncal>9657.5</uncal>
+      </end>
+    </regionMarker>
+    <peakMarker>
+      <position>
+        <cal>9616.02283696</cal>
+        <uncal>9616.02283696</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
+      <coeff deg="0">
+        <value>565.126749581</value>
+        <error>403.234159866</error>
+      </coeff>
+      <coeff deg="1">
+        <value>-0.0524641932142</value>
+        <error>0.0419565341972</error>
+      </coeff>
+    </background>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>30.6705071999</value>
+          <error>4.03422041415</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>1118.11078861</value>
+          <error>170.512039614</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>9616.02283696</value>
+          <error>1.17761441491</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>30.6705071999</value>
+          <error>4.03422041415</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>1118.11078861</value>
+          <error>170.512039614</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>9616.02283696</value>
+          <error>1.17761441491</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+  </fit>
+  <fit bgDegree="1" chi="85.5320261137" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
+    <regionMarker>
+      <begin>
+        <cal>10452.5</cal>
+        <uncal>10452.5</uncal>
+      </begin>
+      <end>
+        <cal>10537.5</cal>
+        <uncal>10537.5</uncal>
+      </end>
+    </regionMarker>
+    <peakMarker>
+      <position>
+        <cal>10493.49875</cal>
+        <uncal>10493.49875</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
+      <coeff deg="0">
+        <value>-251.140563433</value>
+        <error>368.15511665</error>
+      </coeff>
+      <coeff deg="1">
+        <value>0.0287226696426</value>
+        <error>0.035074676023</error>
+      </coeff>
+    </background>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>25.8141395679</value>
+          <error>2.83722525019</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>826.741660023</value>
+          <error>103.219707145</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>10493.49875</value>
+          <error>1.05420070794</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>25.8141395679</value>
+          <error>2.83722525019</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>826.741660023</value>
+          <error>103.219707145</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>10493.49875</value>
+          <error>1.05420070794</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+  </fit>
+  <fit bgDegree="1" chi="90.7420228307" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
+    <regionMarker>
+      <begin>
+        <cal>11133.5</cal>
+        <uncal>11133.5</uncal>
+      </begin>
+      <end>
+        <cal>11218.5</cal>
+        <uncal>11218.5</uncal>
+      </end>
+    </regionMarker>
+    <peakMarker>
+      <position>
+        <cal>11176.028939</cal>
+        <uncal>11176.028939</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
+      <coeff deg="0">
+        <value>1315.1375181</value>
+        <error>454.048945353</error>
+      </coeff>
+      <coeff deg="1">
+        <value>-0.112761330336</value>
+        <error>0.0406205283883</error>
+      </coeff>
+    </background>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>25.3963247769</value>
+          <error>0.147511265376</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>35548.1931455</value>
+          <error>224.931466244</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>11176.028939</value>
+          <error>0.0673602665558</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>25.3963247769</value>
+          <error>0.147511265376</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>35548.1931455</value>
+          <error>224.931466244</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>11176.028939</value>
+          <error>0.0673602665558</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+  </fit>
+  <fit bgDegree="1" chi="104.699686287" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
+    <regionMarker>
+      <begin>
+        <cal>11482.5</cal>
+        <uncal>11482.5</uncal>
+      </begin>
+      <end>
+        <cal>11567.5</cal>
+        <uncal>11567.5</uncal>
+      </end>
+    </regionMarker>
+    <peakMarker>
+      <position>
+        <cal>11524.5451066</cal>
+        <uncal>11524.5451066</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
+      <coeff deg="0">
+        <value>-117.692865732</value>
+        <error>400.450927319</error>
+      </coeff>
+      <coeff deg="1">
+        <value>0.0143226270885</value>
+        <error>0.0347444611428</error>
+      </coeff>
+    </background>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>25.2977791514</value>
+          <error>0.682091765264</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>3946.69370882</value>
+          <error>115.866145262</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>11524.5451066</value>
+          <error>0.276976450766</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>25.2977791514</value>
+          <error>0.682091765264</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>3946.69370882</value>
+          <error>115.866145262</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>11524.5451066</value>
+          <error>0.276976450766</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+  </fit>
+  <fit bgDegree="1" chi="76.9992646436" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
+    <regionMarker>
+      <begin>
+        <cal>12308.5</cal>
+        <uncal>12308.5</uncal>
+      </begin>
+      <end>
+        <cal>12393.5</cal>
+        <uncal>12393.5</uncal>
+      </end>
+    </regionMarker>
+    <peakMarker>
+      <position>
+        <cal>12351.4341969</cal>
+        <uncal>12351.4341969</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
+      <coeff deg="0">
+        <value>921.481007041</value>
+        <error>437.182770932</error>
+      </coeff>
+      <coeff deg="1">
+        <value>-0.0714017259649</value>
+        <error>0.0353940132473</error>
+      </coeff>
+    </background>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>27.4040885222</value>
+          <error>0.317504920911</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>12912.5248337</value>
+          <error>161.259223157</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>12351.4341969</value>
+          <error>0.13443884318</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>27.4040885222</value>
+          <error>0.317504920911</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>12912.5248337</value>
+          <error>161.259223157</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>12351.4341969</value>
+          <error>0.13443884318</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+  </fit>
+  <fit bgDegree="1" chi="83.6553744227" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
+    <regionMarker>
+      <begin>
+        <cal>12736.5</cal>
+        <uncal>12736.5</uncal>
+      </begin>
+      <end>
+        <cal>12821.5</cal>
+        <uncal>12821.5</uncal>
+      </end>
+    </regionMarker>
+    <peakMarker>
+      <position>
+        <cal>12779.1798638</cal>
+        <uncal>12779.1798638</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
+      <coeff deg="0">
+        <value>226.688012767</value>
+        <error>11.7968201504</error>
+      </coeff>
+      <coeff deg="1">
+        <value>-0.0147520888156</value>
+        <error>0.000923089980734</error>
+      </coeff>
+    </background>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>25.7661504588</value>
+          <error>0.816597939427</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>3057.1145462</value>
+          <error>105.48186801</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>12779.1798638</value>
+          <error>0.304005078777</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>25.7661504588</value>
+          <error>0.816597939427</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>3057.1145462</value>
+          <error>105.48186801</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>12779.1798638</value>
+          <error>0.304005078777</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+  </fit>
+  <fit bgDegree="1" chi="156.193262913" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
+    <regionMarker>
+      <begin>
+        <cal>13700.5</cal>
+        <uncal>13700.5</uncal>
+      </begin>
+      <end>
+        <cal>13865.5</cal>
+        <uncal>13865.5</uncal>
+      </end>
+    </regionMarker>
+    <peakMarker>
+      <position>
+        <cal>13743.5516169</cal>
+        <uncal>13743.5516169</uncal>
+      </position>
+    </peakMarker>
+    <peakMarker>
+      <position>
+        <cal>13820.2396672</cal>
+        <uncal>13820.2396672</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
+      <coeff deg="0">
+        <value>507.217423347</value>
+        <error>203.840786142</error>
+      </coeff>
+      <coeff deg="1">
+        <value>-0.0342430053366</value>
+        <error>0.0147650151878</error>
+      </coeff>
+    </background>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>27.4918750043</value>
+          <error>0.412385386036</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>8451.6354292</value>
+          <error>135.198139228</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>13743.5516169</value>
+          <error>0.163039938519</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>27.4918750043</value>
+          <error>0.412385386036</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>8451.6354292</value>
+          <error>135.198139228</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>13743.5516169</value>
+          <error>0.163039938519</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>27.4918750043</value>
+          <error>0.412385386036</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>1567.60307415</value>
+          <error>73.4044398352</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>13820.2396672</value>
+          <error>0.538951408218</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>27.4918750043</value>
+          <error>0.412385386036</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>1567.60307415</value>
+          <error>73.4044398352</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>13820.2396672</value>
+          <error>0.538951408218</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+  </fit>
+  <fit bgDegree="1" chi="164.585102793" peakModel="theuerkauf">
+    <spectrum calibration="" name="B0-Ra226.spc" />
+    <regionMarker>
+      <begin>
+        <cal>13936.5</cal>
+        <uncal>13936.5</uncal>
+      </begin>
+      <end>
+        <cal>14089.5</cal>
+        <uncal>14089.5</uncal>
+      </end>
+    </regionMarker>
+    <peakMarker>
+      <position>
+        <cal>13981.7610216</cal>
+        <uncal>13981.7610216</uncal>
+      </position>
+    </peakMarker>
+    <peakMarker>
+      <position>
+        <cal>14045.8652324</cal>
+        <uncal>14045.8652324</uncal>
+      </position>
+    </peakMarker>
+    <background chisquare="None" deg="1">
+      <coeff deg="0">
+        <value>513.745544727</value>
+        <error>208.87355857</error>
+      </coeff>
+      <coeff deg="1">
+        <value>-0.0342266674094</value>
+        <error>0.0149154592034</error>
+      </coeff>
+    </background>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>28.7332909216</value>
+          <error>0.612116021563</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>2706.43153887</value>
+          <error>100.128778678</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>13981.7610216</value>
+          <error>0.378898181105</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>28.7332909216</value>
+          <error>0.612116021563</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>2706.43153887</value>
+          <error>100.128778678</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>13981.7610216</value>
+          <error>0.378898181105</error>
+        </pos>
+      </cal>
+      <extras />
+    </peak>
+    <peak>
+      <uncal>
+        <width status="equal">
+          <value>28.7332909216</value>
+          <error>0.612116021563</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>4674.60582462</value>
+          <error>121.33446704</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>14045.8652324</value>
+          <error>0.253573632939</error>
+        </pos>
+      </uncal>
+      <cal>
+        <width status="equal">
+          <value>28.7332909216</value>
+          <error>0.612116021563</error>
+        </width>
+        <tl status="none" />
+        <sh status="none" />
+        <vol status="free">
+          <value>4674.60582462</value>
+          <error>121.33446704</error>
+        </vol>
+        <tr status="none" />
+        <sw status="hold" />
+        <pos status="free">
+          <value>14045.8652324</value>
+          <error>0.253573632939</error>
         </pos>
       </cal>
       <extras />
