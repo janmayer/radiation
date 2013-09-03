@@ -1,5 +1,5 @@
-require 'radiation'
-require 'plusminus'
-
 require 'coveralls'
 Coveralls.wear!
+
+require 'radiation'
+require 'plusminus'
