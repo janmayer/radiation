@@ -15,8 +15,19 @@ class CLI < Thor
 	desc "source NUCLIDE", "decay radiation data"
 	def source(nuclide)
 		resource = options[:resource] ? options[:resource] : "iaea"
-		puts ["E_ɣ", "ΔE_ɣ", "I_ɣ", "ΔI_ɣ"].join("\t")
+		puts ["#E_ɣ", "ΔE_ɣ", "I_ɣ", "ΔI_ɣ"].join("\t")
 		puts Radiation::Source.new(nuclide: nuclide, resource: resource).intensities.collect{|l| [l[:energy].nio_write, l[:energy].delta, l[:intensity].nio_write, "%.0E" % l[:intensity].delta].join("\t") }
+	end
+
+	option :resource
+	desc "list", "List available nuclei"
+	def list
+		resource = options[:resource] ? options[:resource] : "iaea"
+		puts case resource
+			when "iaea" then Radiation::Resource::IAEA.new.list
+			when "nucleide.org" then Radiation::Resource::Nucleideorg.new.list
+			else raise "Unknown Datasource"
+		end
 	end
 
 	desc "resources", "List available data resources"
@@ -54,9 +65,9 @@ class CLI < Thor
 		mini = options[:mini] ? options[:mini].to_f : 0.003
 		source   = Radiation::Source.new(nuclide: nuclide, resource: resource)
 		spectrum = Radiation::Spectrum.new(source: source ).parse_hdtv(file)
-		puts ["E_ɣ", "I_ɣ", "ΔI_ɣ", "e", "Δe"].join("\t")
+		puts ["#E_ɣ", "ΔE_ɣ", "I_ɣ", "ΔI_ɣ", "e", "Δe"].join("\t")
 		spectrum.calibrate.efficiencies.peaks.select{|p| p[:intensity] > mini}.sort_by{|k| k[:energy]}.each do |p|
-			puts [ p[:energy].to_f.round(1), p[:intensity].nio_write, "%.0E" % p[:intensity].delta, p[:efficiency].nio_write, "%.0E" % p[:efficiency].delta ].join("\t")
+			puts [ p[:energy].nio_write, p[:energy].delta, p[:intensity].nio_write, p[:intensity].delta, p[:efficiency].nio_write, "%.0E" % p[:efficiency].delta ].join("\t")
 		end
 	end
 

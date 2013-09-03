@@ -7,7 +7,8 @@ require 'tmpdir'
 
 module Radiation::Resource
 	class Nucleideorg < Base
-		
+		OpenURI::Cache.cache_path = "#{Dir.tmpdir}/radiation/"
+
 		def fetch(nuclide)
 			@nuclide = nuclide
 			@nuclide = "Ra-226D" if @nuclide == "Ra-226" #Ra-226 in equilibrium with daughters
@@ -16,7 +17,6 @@ module Radiation::Resource
 
 				@data[:reference] = "A. Pluquet et al. (2013). Recommended data for #{@nuclide} by the Decay Data Evaluation Project working group. Decay Data Evaluation Project, Laboratoire National Henri Becquerel, C.E. Saclay. Retrieved from http://www.nucleide.org/DDEP_WG/Nuclides/#{@nuclide}.lara.txt"
 
-				OpenURI::Cache.cache_path = "#{Dir.tmpdir}/radiation/"
 				uri = open("http://www.nucleide.org/DDEP_WG/Nuclides/#{@nuclide}.lara.txt").readlines
 				start = 0
 				uri.each_with_index do |line, lineno|
@@ -40,5 +40,9 @@ module Radiation::Resource
 			self
 		end
 
+		def list
+			open("http://www.nucleide.org/DDEP_WG/DDEPdata.htm").read.scan(/Nuclides\/(.*).lara.txt/).flatten
+		end
+
 	end
-end
+end 

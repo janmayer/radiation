@@ -10,7 +10,7 @@ module Radiation::Resource
 		def fetch(nuclide)
 			@nuclide = nuclide
 			begin
-				@data = load_data(@nuclide)
+				@data = load_data.select{|n| n[:nuclide] == nuclide}.first
 				# FIXME: Better conversion from x, x_uncertainty to pm
 				@data[:transitions].collect!{|t| { :energy => t[:energy].to_f.pm(t[:energy_uncertainty].to_f), :intensity => t[:intensity].to_f.pm(t[:intensity_uncertainty].to_f)} }
 			rescue
@@ -19,9 +19,13 @@ module Radiation::Resource
 			self
 		end
 
+		def list
+			load_data.collect{|n| n[:nuclide]}
+		end
+
 		private
-		def load_data(nuclide)
-			JSON.parse( IO.read("#{PATH}/#{FILENAME}"), {:symbolize_names => true} ).select{|n| n[:nuclide] == nuclide}.first
+		def load_data
+			JSON.parse( IO.read("#{PATH}/#{FILENAME}"), {:symbolize_names => true} )
 		end
 
 	end

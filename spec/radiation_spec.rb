@@ -2,6 +2,13 @@
 require 'spec_helper'
 
 describe Radiation do
+	describe Radiation::Resource do
+		it "lists available decaying nuclei" do
+			Radiation::Resource::IAEA.new.list.should be_a_kind_of(Array)
+			Radiation::Resource::Nucleideorg.new.list.should be_a_kind_of(Array)
+		end
+	end
+	
 	describe Radiation::Source do
 		name = "Ra-226"
 		source = Radiation::Source.new(nuclide: name)
