@@ -6,21 +6,22 @@ require "xmlsimple"
 
 module Radiation
 	class Spectrum
-		attr_accessor :peaks, :source, :calibration, :livetime, :activity
-	
+		attr_accessor :peaks, :source, :calibration, :livetime, :activity, :count_correction
+
 		def initialize(options={})
 			@peaks		= options.key?(:peaks) ? options[:peaks] : []
 			@source		= options.key?(:source) ? options[:source] : nil
 			@calibration= options.key?(:calibration) ? options[:calibration] : [0, 1]
 			@livetime	= options.key?(:livetime) ? options[:livetime] : 1
 			@activity	= options.key?(:activity) ? options[:activity] : 1
+			@count_correction = options.key?(:count_correction) ? options[:count_correction] : 1
 		end
-	
+
 		def calibrate
 			if @peaks.empty? or @peaks.select{|p| p.key?(:channel)}.empty?
 				raise "Nothing to calibrate"
 			end
-	
+
 			if @peaks.select{|p| p.key?(:channel) and p.key?(:energy)}.empty?
 				if @calibration == [0,1] and @source.nil?
 					raise "No channel <-> energy associations. Specify a Source or a preliminary calibration to improve"
@@ -33,7 +34,7 @@ module Radiation
 			@calibration = apply_linefit(@peaks)
 			return self
 		end
-	
+
 		def guess_calibration(energies=@source.energies, rounding=4)
 			# Build all possible combinations of known energies and peaks
 			arr = [energies, @peaks.collect{|peak| peak[:channel]}].comprehension
@@ -42,20 +43,20 @@ module Radiation
 			@calibration = [0, freq.last[0] ]
 			return self
 		end
-	
+
 		def channel_energy(chn)
 			@calibration[0] + @calibration[1]*chn
 		end
-	
+
 		def parse_hdtv(file)
 			xml = XmlSimple.xml_in(file, { 'KeyAttr' => 'name' })
 			@peaks = xml["fit"].collect{|p| p["peak"]}.flatten.collect{|p| p["uncal"]}.flatten.collect do |p|
 				{:channel => p["pos"].first["value"].first.to_f.pm(p["pos"].first["error"].first.to_f),
-		 		:counts => p["vol"].first["value"].first.to_f.pm(p["vol"].first["error"].first.to_f) } 
+		 		:counts => p["vol"].first["value"].first.to_f.pm(p["vol"].first["error"].first.to_f) }
 			end
 			return self
 		end
-		
+
 		def efficiencies(rounding=4)
 			self.match_channels
 			@peaks.select{|p| p.key?(:intensity) and p.key?(:counts)}.each{|p| p[:efficiency] = channel_efficiency(p)}
@@ -76,7 +77,7 @@ module Radiation
 
 
 		def channel_efficiency(peak)
-			peak[:counts]/(peak[:intensity]*@livetime*@activity)
+			peak[:counts]*@count_correction/(peak[:intensity]*@livetime*@activity)
 		end
 
 	private
@@ -94,7 +95,7 @@ module Radiation
 			else
 				lineFit.setData(x,y)
 			end
-			
+
 			intercept, slope = lineFit.coefficients
 			varianceIntercept, varianceSlope = lineFit.varianceOfEstimates
 			return [intercept.pm(Math.sqrt(varianceIntercept.abs)), slope.pm(Math.sqrt(varianceSlope.abs))]
@@ -102,8 +103,8 @@ module Radiation
 
 	end
 end
-	
-	
+
+
 class Float
 	def approx_equal?(other,threshold=0.5)
 		if (self-other).abs < threshold    # "<" not exact either
